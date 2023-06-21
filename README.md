@@ -10,33 +10,33 @@ Consequently, its creation has focused on a new common classification system tha
 # Principles
 - Function criterion as a guarantee of traceability throughout the life cycle, regardless of uses or phases.
 - Homogeneity throughout the system.
-- Common language as a means of improving communication
+- Common language as a means of improving communication.
 # Will
 From GuBIMCat we intend to play an active role, so that the classification system can continue to be validated and analyzed periodically, publishing future revisions, in accordance with the use that is being given to the territory as a whole.
 This work wants to become the guideline for a future expansion and/or unification that encompasses all building projects, civil works, linear works, etc.
 # References
 Omniclass, Uniformat, Masterformat, Uniclass 2015, SfB, Infraestructures.cat
 # Co-authors
-Agustí Jardí
-Alberto Leciñena
-Álvaro Martín
-Carmen Isábal
-Carolina Jarreta
-David Delgado
-Diego Vidoni
-Elisenda Serrano
-Eloi Coloma
-Eva Roense
-Flavia Resa
-Gonçal Costa
-Ivan Pérez
-Juan Luis de Madariaga
-Laia Isern
-Luis Manuel Sagredo
-Maria Elena Pla
-Miguel Muñoz
-Miquel Rodríguez
-Rafael Capdevila
-Roger Beaumont
+Agustí Jardí\
+Alberto Leciñena\
+Álvaro Martín\
+Carmen Isábal\
+Carolina Jarreta\
+David Delgado\
+Diego Vidoni\
+Elisenda Serrano\
+Eloi Coloma\
+Eva Roense\
+Flavia Resa\
+Gonçal Costa\
+Ivan Pérez\
+Juan Luis de Madariaga\
+Laia Isern\
+Luis Manuel Sagredo\
+Maria Elena Pla\
+Miguel Muñoz\
+Miquel Rodríguez\
+Rafael Capdevila\
+Roger Beaumont\
 # Acknowledgments
 We want to highlight the volunteering dimension on which the user group is based. Their involvement and continued drive have been essential for the achievement of this objective, as well as the shows of support and good reception on the part of the rest of the members of the group, of different organizations in the sector and of the BIM community in general.
