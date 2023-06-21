@@ -1,0 +1,533 @@
+00	Treballs previs i replanteig general	1	-0
+00.10	Elements auxiliars de replanteig del model	2	-0
+00.10.10	Origen de coordenades	3	-0
+00.10.20	Elements d'alineació de model	3	-0
+00.10.30	Eixos	3	-0
+00.10.40	Nivells	3	-0
+00.20	Preexistències	2	-0
+00.20.10	Edificacions colindants preexistents	3	-0
+00.20.20	Elements d'entorn urbà preexistent	3	-0
+00.20.30	Serveis urbans preexistents	3	-0
+00.30	Assaigs previs	2	-0
+00.30.10	Assaig al terreny	3	-0
+00.30.10.10	Sondeig	4	-0
+00.30.10.20	Penetròmetre	4	-0
+00.30.10.30	Piezòmetre	4	-0
+00.30.20	Assaig d'elements estructurals	3	-0
+00.30.20.10	Assaig sobre element de formigó	4	-0
+00.30.20.20	Assaig sobre estructura d'acer	4	-0
+00.30.20.30	Assaig sobre estructura de fàbrica	4	-0
+10	Adequació del terreny i sustentació de l'edifici	1	-0
+10.10	Actuacions per reduir i controlar les afectacions a edificis veïns, serveis i altres elements	2	-0
+10.10.10	Apuntalaments i estrebades	3	-0
+10.10.10.10	Puntals metàl·lics	4	-0
+10.10.10.20	Ancoratges temporals	4	-0
+10.10.20	Altres actuacions per a controlar afectacions	3	-0
+10.20	Moviment de terres	2	-0
+10.20.10	Topografia	3	-0
+10.20.20	Excavacions	3	-0
+10.20.20.10	Excavació general	4	-0
+10.20.20.20	Excavació de fonamentació	4	-0
+10.20.30	Reblerts	3	-0
+10.20.30.10	Terraplenat	4	-0
+10.20.30.20	Millora del  terreny	4	-0
+10.20.30.30	Reblert trasdos del mur	4	-0
+10.30	Esgotament del nivell freàtic	2	-0
+10.30.10	Elements generals d'esgotament del nivell freàtic	3	-0
+10.30.10.10	Decantador	4	-0
+10.30.10.20	Tuberia per a esgotaments	4	-0
+10.30.10.30	Comptador per a esgotaments	4	-0
+10.30.20	Esgotament amb sistema de bombeig	3	-0
+10.30.20.10	Pou de bombeig	4	-0
+10.30.30	Esgotament amb sistema Wellpoint	3	-0
+10.30.30.10	Llança de succió	4	-0
+20	Sistema estructural	1	-0
+20.10	Fonaments i contenció de terres	2	-0
+20.10.10	Elements superficials	3	-0
+20.10.10.10	Traves	4	-0
+20.10.10.20	Sabates	4	-0
+20.10.10.30	Enceps	4	-0
+20.10.10.40	Lloses de fonamentació	4	-0
+20.10.10.50	Formigó de neteja	4	-0
+20.10.10.60	Pous de fonamentacio	4	-0
+20.10.20	Elements profunds	3	-0
+20.10.20.20	Pantalles de fonamentació	4	-0
+20.10.20.30	Pilons de fonamentació	4	-0
+20.10.20.40	Micropilons	4	-0
+20.10.20.50	Jet-grouting	4	-0
+20.10.30	Elements de contenció	3	-0
+20.10.30.10	Murs de contenció	4	-0
+20.10.30.15	Mur gunitat	4	-0
+20.10.30.20	Pantalles de contenció	4	-0
+20.10.30.30	Pilons de contenció	4	-0
+20.10.30.40	Murs de micropilons	4	-0
+20.10.30.50	Murs de jet-grouting	4	-0
+20.10.30.60	Murs de palplanxes	4	-0
+20.10.30.70	Sistemes d'ancoratge i apuntalament d'elements de contenció definitius	4	-0
+20.10.40	Bases	3	-0
+20.10.40.10	Soleres	4	-0
+20.10.40.20	Rampes	4	-0
+20.10.40.30	Subbases	4	-0
+20.20	Estructura	2	-0
+20.20.10	Estructura vertical	3	-0
+20.20.10.10	Pilars	4	-0
+20.20.10.20	Mènsules	4	-0
+20.20.10.30	Murs estructurals	4	-0
+20.20.10.40	Escales d'estructura	4	-0
+20.20.10.50	Rampes d'estructura	4	-0
+20.20.10.60	Tensors verticals	4	-0
+20.20.20	Estructura horitzontal	3	-0
+20.20.20.10	Forjats	4	-0
+20.20.20.20	Jàsseres	4	-0
+20.20.20.30	Encavallades	4	-0
+20.20.20.40	Biguetes	4	-0
+20.20.20.50	Tensors horitzontals	4	-0
+20.20.30	Estructura tridimensional	3	-0
+20.20.30.10	Volta	4	-0
+20.20.30.20	Arc	4	-0
+20.20.30.30	Cúpula	4	-0
+20.20.30.40	Malla espacial	4	-0
+30	Sistemes d'envolvent i d'acabats exteriors	1	-0
+30.10	Envolvent vertical	2	-0
+30.10.10	Façanes	3	-0
+30.10.10.10	Façanes in situ	4	-0
+30.10.10.20	Façanes prefabricades	4	-0
+30.10.10.30	Sistemes especials de façanes	4	-0
+30.10.10.40	Acabats de façanes	4	-0
+30.10.10.50	Remats de façanes	4	-0
+30.10.20	Fustería de façana	3	-0
+30.10.20.10	Finestres de façanes	4	-0
+30.10.20.20	Portes de façanes	4	-0
+30.10.20.30	Proteccions solars de façanes	4	-0
+30.10.20.40	Proteccions de seguretat de façanes	4	-0
+30.20	Envolvent horizontal superior	2	-0
+30.20.10	Cobertes	3	-0
+30.20.10.10	Cobertes in-situ	4	-0
+30.20.10.20	Cobertes Pre-fabricades	4	-0
+30.20.10.30	Sistemes especials de cobertes	4	-0
+30.20.10.40	Acabats de cobertes	4	-0
+30.20.10.50	Remats de cobertes	4	-0
+30.20.20	Fusteria de cobertes	3	-0
+30.20.20.10	Finestres de cobertes	4	-0
+30.20.20.20	Portes de cobertes	4	-0
+30.20.20.30	Proteccions solars de cobertes	4	-0
+30.20.20.40	Proteccions de seguretat de cobertes	4	-0
+30.30	Envolvent horizontal inferior	2	-0
+30.30.10	Compartimentació exterior Horizontal	3	-0
+30.30.10.10	Falsos sostres exteriors	4	-0
+30.30.10.20	Remats compartimentació exterior horizontal	4	-0
+30.30.20	Acabats envolvent horizontal inferior	3	-0
+30.30.20.10	Revestiments continus d'envolvent inferior	4	-0
+30.30.20.20	Remats envolvent inferior	4	-0
+30.40	Escales i rampes exteriors	2	-0
+30.40.10	Esglaonament exterior	3	-0
+30.40.10.10	Graons exteriors	4	-0
+30.40.10.20	Recrescut de graons exteriors	4	-0
+30.40.20	Acabats d'esglaonament i rampes exteriors	3	-0
+30.40.20.10	Acabat de tram exterior	4	-0
+30.40.20.20	Acabat de replà exterior	4	-0
+40	Sistemes de compartimentació i d'acabats interiors	1	-0
+40.10	Compartimentació i acabats interiors verticals 	2	-0
+40.10.10	Compartimentació interior vertical	3	-0
+40.10.10.10	Envans	4	-0
+40.10.10.20	Mampares	4	-0
+40.10.10.30	Extradossats	4	-0
+40.10.10.40	Fusteria interior	4	-0
+40.10.10.50	Proteccions interiors	4	-0
+40.10.20	Acabats interiors verticals	3	-0
+40.10.20.10	Revestiments discontinus	4	-0
+40.10.20.20	Revestiments continus	4	-0
+40.10.20.30	Remats interiors	4	-0
+40.10.20.40	Pintures i vinils	4	-0
+40.20	Compartimentació i acabats interiors horitzontals	2	-0
+40.20.10	Compartimentació interior horitzontal	3	-0
+40.20.10.10	Falsos sostres interiors	4	-0
+40.20.10.20	Terres tècnics	4	-0
+40.20.10.30	Recrescuts	4	-0
+40.20.20	Acabats interiors horitzontals	3	-0
+40.20.20.10	Revestiments sostres	4	-0
+40.20.20.20	Paviments	4	-0
+40.30	Escales i rampes interiors	2	-0
+40.30.10	Esglaonament interior	3	-0
+40.30.10.10	Graons interiors	4	-0
+40.30.10.20	Recrescut de graons interiors	4	-0
+40.30.20	Acabats d'esglaonament i rampes interiors	3	-0
+40.30.20.10	Acabat de tram interior	4	-0
+40.30.20.20	Acabat de replà interior	4	-0
+40.40	Elements especials d'acabats interiors	2	-0
+40.40.10	Elements de senyalització	3	-0
+40.40.10.10	Senyalització de sostre	4	-0
+40.40.10.20	Senyalització mural	4	-0
+40.40.10.30	Senyalització de terres	4	-0
+40.40.20	Altres elements especials d'acabats interiors	3	-0
+50	Sistemes de condicionaments, instal·lacions i serveis	1	-0
+50.10	Fontaneria	2	-0
+50.10.10	Equips principals de fontaneria	3	-0
+50.10.10.10	Equips de mesura i control de fontaneria	4	-0
+50.10.10.20	Grups de pressió de fontaneria	4	-0
+50.10.10.30	Dipòsits, acumuladors i escalfadors	4	-0
+50.10.20	Xarxa de distribució de fontaneria	3	-0
+50.10.20.10	Vàlvules i instruments de mesura i control de fluxe de fontaneria	4	-0
+50.10.20.20	Dispositius de fontaneria	4	-0
+50.10.20.30	Canalitzacions d'aigua sanitària	4	-0
+50.10.20.40	Canalitzacions d'aigua tractada	4	-0
+50.10.20.50	Arquetes i pous de fontaneria	4	-0
+50.10.20.60	Terminals de fontaneria	4	-0
+50.20	Evacuació d'aigües	2	-0
+50.20.10	Equips principals d'evacuació d'aigües	3	-0
+50.20.10.10	Equips de mesura i control d'evacuació d'aigües	4	-0
+50.20.10.20	Grups de pressió d'evacuació d'aigües	4	-0
+50.20.10.30	Dipòsits d'evacuació d'aigües	4	-0
+50.20.10.40	Dispositius d'evacuació d'aigües	4	-0
+50.20.20	Xarxa de recollida	3	-0
+50.20.20.10	Canalitzacions d'aigües pluvials	4	-0
+50.20.20.20	Canalitzacions d'aigües residuals	4	-0
+50.20.20.30	Canalitzacions d'aigües grises	4	-0
+50.20.20.40	Canalitzacions per a ventilació sanejament	4	-0
+50.20.20.50	Arquetes i pous d'evaquació d'aigües	4	-0
+50.20.20.60	Terminals de drenatge	4	-0
+50.30	Instal·lacions térmiques i de ventilació	2	-0
+50.30.10	Equips de producció d'instal·lacions tèrmiques	3	-0
+50.30.10.10	Torres de refrigeració	4	-0
+50.30.10.20	Unitats exteriors d'instal·lacions tèrmiques	4	-0
+50.30.10.30	Unitats interiors d'instal·lacions tèrmiques	4	-0
+50.30.10.40	Calderes	4	-0
+50.30.10.50	Termoacumuladors	4	-0
+50.30.10.60	Geotèrmia	4	-0
+50.30.10.70	Captadors solars tèrmics	4	-0
+50.30.10.80	Ventiladors	4	-0
+50.30.10.90	Recuperadors	4	-0
+50.30.20	Equips secundaris d'instal·lacions tèrmiques	3	-0
+50.30.20.10	Equips de bombeig d'instal·lacions tèrmiques	4	-0
+50.30.20.20	Silenciadors	4	-0
+50.30.20.30	Comportes	4	-0
+50.30.20.40	Reguladors	4	-0
+50.30.20.50	Condensadors	4	-0
+50.30.20.60	Vàlvules i instruments de mesura i control de fluxe de climatització	4	-0
+50.30.30	Circuits de distribució de fluids fred/calor	3	-0
+50.30.30.10	Línies frigorífiques	4	-0
+50.30.30.20	Línies hidràuliques	4	-0
+50.30.40	Conductes de distribució d'aire	3	-0
+50.30.40.10	Aportació de aire primari	4	-0
+50.30.40.20	Extracció de aire primari	4	-0
+50.30.40.30	Impulsió de aire tractat	4	-0
+50.30.40.40	Retorn de aire tractat	4	-0
+50.30.40.50	Extracció de fums	4	-0
+50.30.50	Terminals i difusors	3	-0
+50.30.50.10	Radiadors	4	-0
+50.30.50.20	Difusors	4	-0
+50.30.50.30	Terra radiant	4	-0
+50.30.50.40	Forjats radiants	4	-0
+50.30.50.50	Reixetes	4	-0
+50.30.60	Dispositius de maniobra i control	3	-0
+50.30.60.10	Cablejat / BUS de climatització	4	-0
+50.30.60.20	Detectors de CO2	4	-0
+50.40	Subministrament de combustibles	2	-0
+50.40.10	Equips principals de subministrament de combustibles	3	-0
+50.40.10.10	Equips de mesura, regulació i control de combustibles	4	-0
+50.40.10.20	Dipòsits de combustible	4	-0
+50.40.10.30	Grups de pressió de combustible	4	-0
+50.40.20	Equips secundaris de subministrament de combustibles	3	-0
+50.40.20.10	Vàlvules i instruments de mesura i control de fluxe de combustibles	4	-0
+50.40.20.20	Dispositius de subministrament de combustibles	4	-0
+50.40.30	Xarxa de distribució de subministrament de combustibles	3	-0
+50.40.30.10	Canalitzacions de subministrament de combustibles	4	-0
+50.40.30.20	Arquetes i pous de subministrament de combustibles	4	-0
+50.40.40	Terminals de subministrament de combustibles	3	-0
+50.40.40.10	Aixetes de subministrament de combustibles	4	-0
+50.40.40.20	Cremadors	4	-0
+50.40.50	Dispositius de maniobra i control	3	-0
+50.40.50.10	Cablejat / BUS per a subministrament de combustibles	4	-0
+50.40.50.20	Detector de gasos 	4	-0
+50.50	Protecció contra incendis	2	-0
+50.50.10	Extinció d'incendis	3	-0
+50.50.10.10	Dipòsits d'extinció d'incendis	4	-0
+50.50.10.20	Grups de pressió d'extinció d'incendis	4	-0
+50.50.10.30	Vàlvules i instruments de mesura i control de fluxe d'extinció d'incendis	4	-0
+50.50.10.40	Dispositius d'extinció d'incendis	4	-0
+50.50.10.50	Canalitzacions d'extinció d'incendis	4	-0
+50.50.10.60	Ruixadors	4	-0
+50.50.10.70	BIES	4	-0
+50.50.10.80	Extintors	4	-0
+50.50.20	Detecció d'incendis	3	-0
+50.50.20.10	Centraletes i racks de detecció d'incendis	4	-0
+50.50.20.20	Equips especials de detecció d'incendis	4	-0
+50.50.20.30	Canalitzacions de detecció d'incendis	4	-0
+50.50.20.40	Caixes de distribució de detecció d'incendis	4	-0
+50.50.30	Dispositius de maniobra i control	3	-0
+50.50.30.10	Polsadors	4	-0
+50.50.30.20	Quadres de comandament per contra incendis	4	-0
+50.50.30.30	Detectors d'incendis	4	-0
+50.50.30.40	Mecanismes d'extinció i detecció d'incendis	4	-0
+50.50.30.50	Cablejat / BUS de contra incendis	4	-0
+50.60	Instal·lacions elèctriques	2	-0
+50.60.10	Equips elèctrics principals	3	-0
+50.60.10.10	Quadres elèctrics	4	-0
+50.60.10.20	Grups electrògens	4	-0
+50.60.10.30	Escomeses elèctriques	4	-0
+50.60.10.40	Transformadors	4	-0
+50.60.20	Equips elèctrics secundaris	3	-0
+50.60.20.10	Bateries i SAI	4	-0
+50.60.20.20	Quadres de comandament elèctric	4	-0
+50.60.20.30	Bateries de condensadors	4	-0
+50.60.20.40	Embarrats i transformadors	4	-0
+50.60.30	Canalitzacions de distribució elèctriques	3	-0
+50.60.30.10	Safates de distribució elèctrica	4	-0
+50.60.30.20	Canals de superfície de distribució eléctrica	4	-0
+50.60.30.30	Caixes de distribució elèctrica	4	-0
+50.60.30.40	Mànegues i tubs de distribució elèctrica	4	-0
+50.60.30.50	Arquetes i pous de distribució elèctrica	4	-0
+50.60.30.60	Cablejat elèctric	4	-0
+50.60.40	Dispositius de maniobra i control	3	-0
+50.60.40.10	Mecanismes	4	-0
+50.60.40.20	Preses	4	-0
+50.60.50	Il·luminació	3	-0
+50.60.50.10	Il·luminació exterior	4	-0
+50.60.50.20	Il·luminació interior	4	-0
+50.60.50.30	Il·luminació d'emergència	4	-0
+50.60.60	Xarxa de terres	3	-0
+50.60.60.10	Parallamps	4	-0
+50.60.60.20	Piquetes i arquetes	4	-0
+50.60.60.30	Mecanismes de la xarxa de terres	4	-0
+50.70	Telecomunicacions i audiovisuals	2	-0
+50.70.10	Equips principals de telecomunicacions	3	-0
+50.70.10.10	Antenes	4	-0
+50.70.10.20	Escomeses de telecomunicacions	4	-0
+50.70.10.30	Armaris RACK	4	-0
+50.70.10.40	Servidors	4	-0
+50.70.20	Equips secundaris de telecomunicacions	3	-0
+50.70.20.10	Conversors	4	-0
+50.70.20.20	Amplificadors	4	-0
+50.70.20.30	Altaveus	4	-0
+50.70.20.40	Centraletes	4	-0
+50.70.20.50	Routers	4	-0
+50.70.20.60	Monitors	4	-0
+50.70.30	Canalitzacions de distribució per a senyals dèbils	3	-0
+50.70.30.10	Safates de distribució per a senyals dèbils	4	-0
+50.70.30.20	Canals de superficie  per a senyals dèbils	4	-0
+50.70.30.30	Caixes de distribució per a senyals dèbils	4	-0
+50.70.30.40	Cablejat  de senyals dèbils	4	-0
+50.70.30.50	Mànegues i tubs de distribució per a senyals dèbils	4	-0
+50.70.30.60	Arquetes i pous  per a senyals dèbils	4	-0
+50.70.40	Dispositius de maniobra i control de telecomunicacions	3	-0
+50.70.40.10	Preses de telecomunicacions 	4	-0
+50.70.40.20	Quadres de comandament de telecomunicacions	4	-0
+50.70.50	Terminals de telecomunicacions	3	-0
+50.70.50.10	Equips de telecomunicacions	4	-0
+50.70.50.20	Emissors de telecomunicacions	4	-0
+50.80	Seguretat i antiintrusió	2	-0
+50.80.10	Equips de seguretat i antiintrusió	3	-0
+50.80.10.10	Racks per seguretat i antiintrusió	4	-0
+50.80.10.20	Centraletes de seguretat	4	-0
+50.80.10.30	Telefonia	4	-0
+50.80.20	Sistemes anti-intrusió	3	-0
+50.80.20.10	Detectors anti-intrusió	4	-0
+50.80.20.20	Circuits de TV	4	-0
+50.80.20.30	Sensors anti-intrusió	4	-0
+50.80.30	Elements de control de persones	3	-0
+50.80.30.10	Control de accessos	4	-0
+50.80.40	Elements de control de vehicles	3	-0
+50.80.40.10	Gestió de trànsit	4	-0
+50.80.50	Elements d'avís i alarma	3	-0
+50.80.50.10	Sirenes	4	-0
+50.90	Instal·lacions especials	2	-0
+50.90.10	Equips principals d'instal·lacions especials	3	-0
+50.90.10.10	Equips de mesura, regulació i control especials	4	-0
+50.90.10.20	Dipòsits d'instal·lacions especials	4	-0
+50.90.10.30	Grups de pressió d'instal·lacions especials	4	-0
+50.90.20	Equips secundaris d'instal·lacions especials	3	-0
+50.90.20.10	Vàlvules i instruments de mesura i control de fluxe especials	4	-0
+50.90.20.20	Dispositius especials	4	-0
+50.90.30	Xarxa de distribució d'instal·lacions especials	3	-0
+50.90.30.10	Canalitzacions especials	4	-0
+50.90.30.20	Arquetes i pous d'instal·lacions especials	4	-0
+50.90.40	Terminals d'instal·lacions especials	3	-0
+50.90.40.10	Aixetes per a instal·lacions especials	4	-0
+50.90.40.20	Altres terminals especials	4	-0
+50.90.50	Dispositius de maniobra i control	3	-0
+50.90.50.10	Comandaments	4	-0
+50.90.50.20	Detectors especials	4	-0
+50.90.50.30	Sensors especials	4	-0
+50.90.50.40	Altres dispositius de maniobra i control especials	4	-0
+50.100	Altres elements d'instal·lacions	2	-0
+50.100.10	Elements comuns d'instal·lacions	3	-0
+50.100.10.10	Elements de suport	4	-0
+50.100.10.20	Passareles i escales d'acces per a manteniment	4	-0
+50.100.10.30	Canalitzacions i arquetes comuns d'instal·lacions	4	-0
+60	Equipaments i mobiliari	1	-0
+60.10	Equipaments	2	-0
+60.10.10	Cambres humides / sanitaris	3	-0
+60.10.10.10	Inodors	4	-0
+60.10.10.20	Urinaris	4	-0
+60.10.10.30	Bidets	4	-0
+60.10.10.40	Plats de dutxa	4	-0
+60.10.10.50	Banyeres	4	-0
+60.10.10.60	Rentamans	4	-0
+60.10.10.70	Piques	4	-0
+60.10.10.80	Accessoris per a cambres humides	4	-0
+60.10.10.90	Safareigs	4	-0
+60.10.10.100	Abocador	4	-0
+60.10.20	Altres equipaments	3	-0
+60.10.20.10	Equipaments per a circulació de vehicles	4	-0
+60.10.20.20	Equipaments comercials	4	-0
+60.10.20.30	Equipaments institucionals	4	-0
+60.10.20.40	Equipaments recreatius	4	-0
+60.10.20.50	Equipaments assistencials	4	-0
+60.10.20.60	Electrodomèstics	4	-0
+60.10.20.70	Aparells informàtics	4	-0
+60.20	Mobiliari	2	-0
+60.20.10	Mobiliari fixe	3	-0
+60.20.10.10	Taulells	4	-0
+60.20.10.20	Estants	4	-0
+60.20.10.30	Miralls	4	-0
+60.20.10.40	Mostradors	4	-0
+60.20.10.50	Mobles d'obra	4	-0
+60.20.10.60	Armaris encastats	4	-0
+60.20.10.70	Bancades	4	-0
+60.20.10.80	Altres mobiliaris fixes	4	-0
+60.20.30	Mobiliari mòbil	3	-0
+60.20.30.10	Taules	4	-0
+60.20.30.20	Cadires i sofàs	4	-0
+60.20.30.30	Taburets	4	-0
+60.20.30.40	Bancs	4	-0
+60.20.30.50	Llits	4	-0
+60.20.30.60	Armaris, calaixeres i arxivadors	4	-0
+60.20.30.70	Altres mobiliaris mòbils	4	-0
+60.30	Sistemes de transport	2	-0
+60.30.10	Transport vertical	3	-0
+60.30.10.10	Ascensors	4	-0
+60.30.10.20	Muntarcàrregues	4	-0
+60.30.10.30	Escales mecàniques	4	-0
+60.30.20	Transport horitzontal	3	-0
+60.30.20.10	Passarel·les transportadores	4	-0
+60.30.20.20	Altres sistemes de transport	4	-0
+60.30.30	Manipulació d'elements	3	-0
+60.30.30.10	Grues	4	-0
+60.30.30.20	Polipast	4	-0
+60.30.30.30	Cintes transportadores	4	-0
+60.30.30.40	Sistemes pneumàtics	4	-0
+60.30.30.50	Altres sistemes de manipulació	4	-0
+70	Urbanització dels espais exteriors	1	-0
+70.10	Elements de fonamentació, contenció de terres i elements estructurals	2	-0
+70.10.10	Fonaments per a elements d'urbanització	3	-0
+70.10.10.10	Sabates per a elements d'urbanització	4	-0
+70.10.10.20	Fonamentació especial per a elements d'urbanització	4	-0
+70.10.20	Murs d'urbanització	3	-0
+70.10.20.10	Murs in-situ d'urbanització	4	-0
+70.10.20.20	Murs prefabricats d'urbanització	4	-0
+70.10.20.30	Murs de gravetat	4	-0
+70.10.20.40	Mur terra armada	4	-0
+70.10.20.50	Mur de gabions	4	-0
+70.10.30	Altres elements estructurals d'urbanització	3	-0
+70.20	Elements de tancaments i protecció d'urbanització	2	-0
+70.20.10	Tancaments de parcel·la	3	-0
+70.20.20	Barreres mòbils	3	-0
+70.20.30	Pilones	3	-0
+70.30	Ferms i paviments	2	-0
+70.30.10	Bases i subbases	3	-0
+70.30.20	Paviments peatonals	3	-0
+70.30.30	Paviments per a trànsit rodat	3	-0
+70.30.40	Esglaonaments d'urbanització	3	-0
+70.30.50	Rampes d'urbanització	3	-0
+70.40	Instal·lacions i serveis	2	-0
+70.40.10	Enllumenat	3	-0
+70.40.10.10	Lluminàries i bàculs	4	-0
+70.40.10.20	Elements d'abalisament	4	-0
+70.40.10.30	Elements de la xarxa i control	4	-0
+70.40.20	Reg i abastament de font	3	-0
+70.40.20.10	Canalitzacions de reg	4	-0
+70.40.20.20	Accesoris de reg	4	-0
+70.40.20.30	Arquetes de reg	4	-0
+70.40.30	Drenatge	3	-0
+70.40.30.10	Canalitzacions de drenatge	4	-0
+70.40.30.20	Reixes i buneras	4	-0
+70.40.30.30	Arquetes i pous de drenatge	4	-0
+70.50	Jardineria	2	-0
+70.50.10	Plantacions	3	-0
+70.50.10.10	Arbrats	4	-0
+70.50.10.20	Gespa	4	-0
+70.50.10.30	Arbustives	4	-0
+70.50.20	Parterres	3	-0
+70.50.20.10	Parterres fixos	4	-0
+70.50.20.20	Parterres mòbils	4	-0
+70.60	Mobiliari urbà i elements de senyalització	2	-0
+70.60.10	Mobiliari exterior	3	-0
+70.60.20	Jocs infantils	3	-0
+70.60.30	Mobiliari exterior especial	3	-0
+70.60.40	Senyalització horitzontal	3	-0
+70.60.50	Senyalització vertical	3	-0
+80	Construccions i instal·lacions temporals	1	-0
+80.10	Implantacions d'obra	2	-0
+80.10.10	Bastides	3	-0
+80.10.10.10	Pont volant	4	-0
+80.10.10.20	Bastida fixa	4	-0
+80.10.10.30	Cavallet	4	-0
+80.10.10.40	Bastida movil	4	-0
+80.10.10.50	Marquesines	4	-0
+80.10.10.60	Lones	4	-0
+80.10.20	Grues	3	-0
+80.10.20.10	Grua torre	4	-0
+80.10.20.20	Grueta	4	-0
+80.10.20.30	Muntacàrregues d'obra	4	-0
+80.10.20.40	Corrioles i polipasts	4	-0
+80.10.30	Casetes	3	-0
+80.10.30.10	Casetes d'obra	4	-0
+80.10.30.20	Lavabos portàtils	4	-0
+80.10.30.30	Casetes d'enmagatzematge	4	-0
+80.10.30.40	Altres mòduls	4	-0
+80.10.40	Tancaments i senyalització	3	-0
+80.10.40.10	Tancaments perimetrals	4	-0
+80.10.40.20	Portes d'accés	4	-0
+80.10.40.30	Rètols	4	-0
+80.10.40.40	Balises de senyalització	4	-0
+80.10.50	Aplecs	3	-0
+80.10.50.10	Aplec de terres i àrids	4	-0
+80.10.50.20	Aplec de productes	4	-0
+80.10.50.30	Palets	4	-0
+80.10.60	Altres elements d'implantació d'obra	3	-0
+80.10.60.10	Sitja	4	-0
+80.10.60.20	Dipòsits d'obra	4	-0
+80.10.70	Gestió de residus	3	-0
+80.10.70.10	Saca de runa	4	-0
+80.10.70.20	Contenidor de runa	4	-0
+80.10.70.30	Runa	4	-0
+80.10.70.40	Residus especials	4	-0
+80.10.70.50	Ferralla	4	-0
+80.10.70.60	Tub de descàrrega de runa	4	-0
+80.10.70.70	Tremuja	4	-0
+80.20	Construccions temporals	2	-0
+80.20.10	Estructures auxiliars i estintolaments	3	-0
+80.20.10.10	Fonamentacions auxiliars	4	-0
+80.20.10.20	Estintolament de façanes	4	-0
+80.20.10.30	Estintolament de serveis	4	-0
+80.20.10.40	Encofrats auxiliars	4	-0
+80.20.20	Instal·lacions provisionals	3	-0
+80.20.20.10	Instal·lació provisional elèctrica	4	-0
+80.20.20.20	Instal·lació provisional d'aigua	4	-0
+80.20.20.30	Instal·lació provisional de sanejament	4	-0
+80.20.20.40	Altres instal·lacions provisionals	4	-0
+80.20.30	Altres construccions temporals	3	-0
+80.20.30.10	Altres construccions temporals	4	-0
+80.30	Equips i eines	2	-0
+80.30.10	Maquinària	3	-0
+80.30.10.10	Maquinària d'excavació i fonamentació	4	-0
+80.30.10.20	Maquinària per a enderrocs	4	-0
+80.30.10.30	Maquinària d'elevació	4	-0
+80.30.10.40	Maquinària d'transport	4	-0
+80.30.10.50	Maquinàrìa de tractament de materials	4	-0
+80.30.10.60	Altres tipus de maquinària	4	-0
+80.30.20	Eines	3	-0
+80.30.20.10	Eines manuals	4	-0
+80.30.20.20	Eines no manuals	4	-0
+80.40	Seguretat i salut	2	-0
+80.40.10	Proteccions individuals i colectives	3	-0
+80.40.10.10	Equips de protecció individual	4	-0
+80.40.10.20	Tanques de protecció caigudes	4	-0
+80.40.10.30	Xarxes de protecció 	4	-0
+80.40.10.40	Línies de vida	4	-0
+80.40.10.50	Altres mitjans de protecció col·lectiva	4	-0
+80.40.20	Equips de mesura preventiva	3	-0
+80.40.20.10	Equips de mesura i detecció de seguretat i salut	4	-0
+80.40.30	Delimitacions de zones de seguretat	3	-0
+80.40.30.10	Zones de trànsit rodat i maquinària	4	-0
+80.40.30.20	Zones de pas de persones	4	-0
