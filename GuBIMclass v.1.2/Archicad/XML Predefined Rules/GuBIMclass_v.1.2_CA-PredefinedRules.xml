@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules Name="GuBIMclass v.1.2 CA">
+	<Rule>
+		<Name>GuBIMclass v.1.2 CA</Name>
+		<Description>Sistema de classificació d'elements de construcció d'acord a la seva funció principal dins d'un entorn BIM. 'Aplicar' crea una referència de classificació per a l'entitat seleccionada del IFC, utilitzant atributs requerits per GuBIMclass derivats de l'element que trieu a la llista següent.</Description>
+		<ApplicableTo>
+			<ClassName>IfcProject</ClassName>
+			<ClassName>IfcSpatialStructureElement</ClassName>
+			<ClassName>IfcGroup</ClassName>
+			<ClassName>IfcActor</ClassName>
+			<ClassName>IfcControl</ClassName>
+			<ClassName>IfcSpaceType</ClassName>
+			<ClassName>IfcElement</ClassName>
+			<ClassName>IfcTypeObject</ClassName>
+			<ClassName>IfcSite</ClassName>
+			<ClassName>IfcBuilding</ClassName>
+			<ClassName>IfcSystem</ClassName>
+		</ApplicableTo>
+		<Data>
+			<DataDescriptors>
+				<DataDescriptor Title="Code" Variable="number"/>
+				<DataDescriptor Title="Description" Variable="title"/>
+			</DataDescriptors>
+			<DataEntries>
+				<DataEntry number="00" title="Treballs previs i replanteig general">			
+					<DataEntry number="00.10" title="Elements auxiliars de replanteig del model">		
+						<DataEntry number="00.10.10" title="Origen de coordenades"/>	
+						<DataEntry number="00.10.20" title="Elements d'alineació de model"/>	
+						<DataEntry number="00.10.30" title="Eixos"/>	
+						<DataEntry number="00.10.40" title="Nivells"/>
+					</DataEntry>	
+					<DataEntry number="00.20" title="Preexistències">		
+						<DataEntry number="00.20.10" title="Edificacions colindants preexistents"/>	
+						<DataEntry number="00.20.20" title="Elements d'entorn urbà preexistent"/>	
+						<DataEntry number="00.20.30" title="Serveis urbans preexistents"/>
+					</DataEntry>
+					<DataEntry number="00.30" title="Assaigs previs">		
+						<DataEntry number="00.30.10" title="Assaig al terreny">	
+							<DataEntry number="00.30.10.10" title="Sondeig"/>
+							<DataEntry number="00.30.10.20" title="Penetròmetre"/>
+							<DataEntry number="00.30.10.30" title="Piezòmetre"/>
+						</DataEntry>
+						<DataEntry number="00.30.20" title="Assaig d'elements estructurals">	
+							<DataEntry number="00.30.20.10" title="Assaig sobre element de formigó"/>
+							<DataEntry number="00.30.20.20" title="Assaig sobre estructura d'acer"/>
+							<DataEntry number="00.30.20.30" title="Assaig sobre estructura de fàbrica"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="10" title="Adequació del terreny i sustentació de l'edifici">			
+					<DataEntry number="10.10" title="Actuacions per reduir i controlar les afectacions a edificis veïns, serveis i altres elements">		
+						<DataEntry number="10.10.10" title="Apuntalaments i estrebades">	
+							<DataEntry number="10.10.10.10" title="Puntals metàl·lics"/>
+							<DataEntry number="10.10.10.20" title="Ancoratges temporals"/>
+						</DataEntry>
+						<DataEntry number="10.10.20" title="Altres actuacions per a controlar afectacions"/>
+					</DataEntry>	
+					<DataEntry number="10.20" title="Moviment de terres">		
+						<DataEntry number="10.20.10" title="Topografia"/>	
+						<DataEntry number="10.20.20" title="Excavacions">	
+							<DataEntry number="10.20.20.10" title="Excavació general"/>
+							<DataEntry number="10.20.20.20" title="Excavació de fonamentació"/>
+						</DataEntry>
+						<DataEntry number="10.20.30" title="Reblerts">	
+							<DataEntry number="10.20.30.10" title="Terraplenat"/>
+							<DataEntry number="10.20.30.20" title="Millora del  terreny"/>
+							<DataEntry number="10.20.30.30" title="Reblert trasdos del mur"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="10.30" title="Esgotament del nivell freàtic">		
+						<DataEntry number="10.30.10" title="Elements generals d'esgotament del nivell freàtic">	
+							<DataEntry number="10.30.10.10" title="Decantador"/>
+							<DataEntry number="10.30.10.20" title="Tuberia per a esgotaments"/>
+							<DataEntry number="10.30.10.30" title="Comptador per a esgotaments"/>
+						</DataEntry>
+						<DataEntry number="10.30.20" title="Esgotament amb sistema de bombeig">	
+							<DataEntry number="10.30.20.10" title="Pou de bombeig"/>
+						</DataEntry>
+						<DataEntry number="10.30.30" title="Esgotament amb sistema Wellpoint">	
+							<DataEntry number="10.30.30.10" title="Llança de succió"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="20" title="Sistema estructural">			
+					<DataEntry number="20.10" title="Fonaments i contenció de terres">		
+						<DataEntry number="20.10.10" title="Elements superficials">	
+							<DataEntry number="20.10.10.10" title="Traves"/>
+							<DataEntry number="20.10.10.20" title="Sabates"/>
+							<DataEntry number="20.10.10.30" title="Enceps"/>
+							<DataEntry number="20.10.10.40" title="Lloses de fonamentació"/>
+							<DataEntry number="20.10.10.50" title="Formigó de neteja"/>
+							<DataEntry number="20.10.10.60" title="Pous de fonamentacio"/>
+						</DataEntry>
+						<DataEntry number="20.10.20" title="Elements profunds">	
+							<DataEntry number="20.10.20.20" title="Pantalles de fonamentació"/>
+							<DataEntry number="20.10.20.30" title="Pilons de fonamentació"/>
+							<DataEntry number="20.10.20.40" title="Micropilons"/>
+							<DataEntry number="20.10.20.50" title="Jet-grouting"/>
+						</DataEntry>
+						<DataEntry number="20.10.30" title="Elements de contenció">	
+							<DataEntry number="20.10.30.10" title="Murs de contenció"/>
+							<DataEntry number="20.10.30.15" title="Mur gunitat"/>
+							<DataEntry number="20.10.30.20" title="Pantalles de contenció"/>
+							<DataEntry number="20.10.30.30" title="Pilons de contenció"/>
+							<DataEntry number="20.10.30.40" title="Murs de micropilons"/>
+							<DataEntry number="20.10.30.50" title="Murs de jet-grouting"/>
+							<DataEntry number="20.10.30.60" title="Murs de palplanxes"/>
+							<DataEntry number="20.10.30.70" title="Sistemes d'ancoratge i apuntalament d'elements de contenció definitius"/>
+						</DataEntry>
+						<DataEntry number="20.10.40" title="Bases">	
+							<DataEntry number="20.10.40.10" title="Soleres"/>
+							<DataEntry number="20.10.40.20" title="Rampes"/>
+							<DataEntry number="20.10.40.30" title="Subbases"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="20.20" title="Estructura">		
+						<DataEntry number="20.20.10" title="Estructura vertical">	
+							<DataEntry number="20.20.10.10" title="Pilars"/>
+							<DataEntry number="20.20.10.20" title="Mènsules"/>
+							<DataEntry number="20.20.10.30" title="Murs estructurals"/>
+							<DataEntry number="20.20.10.40" title="Escales d'estructura"/>
+							<DataEntry number="20.20.10.50" title="Rampes d'estructura"/>
+							<DataEntry number="20.20.10.60" title="Tensors verticals"/>
+						</DataEntry>
+						<DataEntry number="20.20.20" title="Estructura horitzontal">	
+							<DataEntry number="20.20.20.10" title="Forjats"/>
+							<DataEntry number="20.20.20.20" title="Jàsseres"/>
+							<DataEntry number="20.20.20.30" title="Encavallades"/>
+							<DataEntry number="20.20.20.40" title="Biguetes"/>
+							<DataEntry number="20.20.20.50" title="Tensors horitzontals"/>
+						</DataEntry>
+						<DataEntry number="20.20.30" title="Estructura tridimensional">	
+							<DataEntry number="20.20.30.10" title="Volta"/>
+							<DataEntry number="20.20.30.20" title="Arc"/>
+							<DataEntry number="20.20.30.30" title="Cúpula"/>
+							<DataEntry number="20.20.30.40" title="Malla espacial"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="30" title="Sistemes d'envolvent i d'acabats exteriors">			
+					<DataEntry number="30.10" title="Envolvent vertical">		
+						<DataEntry number="30.10.10" title="Façanes">	
+							<DataEntry number="30.10.10.10" title="Façanes in situ"/>
+							<DataEntry number="30.10.10.20" title="Façanes prefabricades"/>
+							<DataEntry number="30.10.10.30" title="Sistemes especials de façanes"/>
+							<DataEntry number="30.10.10.40" title="Acabats de façanes"/>
+							<DataEntry number="30.10.10.50" title="Remats de façanes"/>
+						</DataEntry>
+						<DataEntry number="30.10.20" title="Fustería de façana">	
+							<DataEntry number="30.10.20.10" title="Finestres de façanes"/>
+							<DataEntry number="30.10.20.20" title="Portes de façanes"/>
+							<DataEntry number="30.10.20.30" title="Proteccions solars de façanes"/>
+							<DataEntry number="30.10.20.40" title="Proteccions de seguretat de façanes"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.20" title="Envolvent horizontal superior">		
+						<DataEntry number="30.20.10" title="Cobertes">	
+							<DataEntry number="30.20.10.10" title="Cobertes in-situ"/>
+							<DataEntry number="30.20.10.20" title="Cobertes Pre-fabricades"/>
+							<DataEntry number="30.20.10.30" title="Sistemes especials de cobertes"/>
+							<DataEntry number="30.20.10.40" title="Acabats de cobertes"/>
+							<DataEntry number="30.20.10.50" title="Remats de cobertes"/>
+						</DataEntry>
+						<DataEntry number="30.20.20" title="Fusteria de cobertes">	
+							<DataEntry number="30.20.20.10" title="Finestres de cobertes"/>
+							<DataEntry number="30.20.20.20" title="Portes de cobertes"/>
+							<DataEntry number="30.20.20.30" title="Proteccions solars de cobertes"/>
+							<DataEntry number="30.20.20.40" title="Proteccions de seguretat de cobertes"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.30" title="Envolvent horizontal inferior">		
+						<DataEntry number="30.30.10" title="Compartimentació exterior Horizontal">	
+							<DataEntry number="30.30.10.10" title="Falsos sostres exteriors"/>
+							<DataEntry number="30.30.10.20" title="Remats compartimentació exterior horizontal"/>
+						</DataEntry>
+						<DataEntry number="30.30.20" title="Acabats envolvent horizontal inferior">	
+							<DataEntry number="30.30.20.10" title="Revestiments continus d'envolvent inferior"/>
+							<DataEntry number="30.30.20.20" title="Remats envolvent inferior"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.40" title="Escales i rampes exteriors">		
+						<DataEntry number="30.40.10" title="Esglaonament exterior">	
+							<DataEntry number="30.40.10.10" title="Graons exteriors"/>
+							<DataEntry number="30.40.10.20" title="Recrescut de graons exteriors"/>
+						</DataEntry>
+						<DataEntry number="30.40.20" title="Acabats d'esglaonament i rampes exteriors">	
+							<DataEntry number="30.40.20.10" title="Acabat de tram exterior"/>
+							<DataEntry number="30.40.20.20" title="Acabat de replà exterior"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="40" title="Sistemes de compartimentació i d'acabats interiors">			
+					<DataEntry number="40.10" title="Compartimentació i acabats interiors verticals ">		
+						<DataEntry number="40.10.10" title="Compartimentació interior vertical">	
+							<DataEntry number="40.10.10.10" title="Envans"/>
+							<DataEntry number="40.10.10.20" title="Mampares"/>
+							<DataEntry number="40.10.10.30" title="Extradossats"/>
+							<DataEntry number="40.10.10.40" title="Fusteria interior"/>
+							<DataEntry number="40.10.10.50" title="Proteccions interiors"/>
+						</DataEntry>
+						<DataEntry number="40.10.20" title="Acabats interiors verticals">	
+							<DataEntry number="40.10.20.10" title="Revestiments discontinus"/>
+							<DataEntry number="40.10.20.20" title="Revestiments continus"/>
+							<DataEntry number="40.10.20.30" title="Remats interiors"/>
+							<DataEntry number="40.10.20.40" title="Pintures i vinils"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.20" title="Compartimentació i acabats interiors horitzontals">		
+						<DataEntry number="40.20.10" title="Compartimentació interior horitzontal">	
+							<DataEntry number="40.20.10.10" title="Falsos sostres interiors"/>
+							<DataEntry number="40.20.10.20" title="Terres tècnics"/>
+							<DataEntry number="40.20.10.30" title="Recrescuts"/>
+						</DataEntry>
+						<DataEntry number="40.20.20" title="Acabats interiors horitzontals">	
+							<DataEntry number="40.20.20.10" title="Revestiments sostres"/>
+							<DataEntry number="40.20.20.20" title="Paviments"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.30" title="Escales i rampes interiors">		
+						<DataEntry number="40.30.10" title="Esglaonament interior">	
+							<DataEntry number="40.30.10.10" title="Graons interiors"/>
+							<DataEntry number="40.30.10.20" title="Recrescut de graons interiors"/>
+						</DataEntry>
+						<DataEntry number="40.30.20" title="Acabats d'esglaonament i rampes interiors">	
+							<DataEntry number="40.30.20.10" title="Acabat de tram interior"/>
+							<DataEntry number="40.30.20.20" title="Acabat de replà interior"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.40" title="Elements especials d'acabats interiors">		
+						<DataEntry number="40.40.10" title="Elements de senyalització">	
+							<DataEntry number="40.40.10.10" title="Senyalització de sostre"/>
+							<DataEntry number="40.40.10.20" title="Senyalització mural"/>
+							<DataEntry number="40.40.10.30" title="Senyalització de terres"/>
+						</DataEntry>
+						<DataEntry number="40.40.20" title="Altres elements especials d'acabats interiors"/>
+					</DataEntry>
+				</DataEntry>	
+				<DataEntry number="50" title="Sistemes de condicionaments, instal·lacions i serveis">			
+					<DataEntry number="50.10" title="Fontaneria">		
+						<DataEntry number="50.10.10" title="Equips principals de fontaneria">	
+							<DataEntry number="50.10.10.10" title="Equips de mesura i control de fontaneria"/>
+							<DataEntry number="50.10.10.20" title="Grups de pressió de fontaneria"/>
+							<DataEntry number="50.10.10.30" title="Dipòsits, acumuladors i escalfadors"/>
+						</DataEntry>
+						<DataEntry number="50.10.20" title="Xarxa de distribució de fontaneria">	
+							<DataEntry number="50.10.20.10" title="Vàlvules i instruments de mesura i control de fluxe de fontaneria"/>
+							<DataEntry number="50.10.20.20" title="Dispositius de fontaneria"/>
+							<DataEntry number="50.10.20.30" title="Canalitzacions d'aigua sanitària"/>
+							<DataEntry number="50.10.20.40" title="Canalitzacions d'aigua tractada"/>
+							<DataEntry number="50.10.20.50" title="Arquetes i pous de fontaneria"/>
+							<DataEntry number="50.10.20.60" title="Terminals de fontaneria"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.20" title="Evacuació d'aigües">		
+						<DataEntry number="50.20.10" title="Equips principals d'evacuació d'aigües">	
+							<DataEntry number="50.20.10.10" title="Equips de mesura i control d'evacuació d'aigües"/>
+							<DataEntry number="50.20.10.20" title="Grups de pressió d'evacuació d'aigües"/>
+							<DataEntry number="50.20.10.30" title="Dipòsits d'evacuació d'aigües"/>
+							<DataEntry number="50.20.10.40" title="Dispositius d'evacuació d'aigües"/>
+						</DataEntry>
+						<DataEntry number="50.20.20" title="Xarxa de recollida">	
+							<DataEntry number="50.20.20.10" title="Canalitzacions d'aigües pluvials"/>
+							<DataEntry number="50.20.20.20" title="Canalitzacions d'aigües residuals"/>
+							<DataEntry number="50.20.20.30" title="Canalitzacions d'aigües grises"/>
+							<DataEntry number="50.20.20.40" title="Canalitzacions per a ventilació sanejament"/>
+							<DataEntry number="50.20.20.50" title="Arquetes i pous d'evaquació d'aigües"/>
+							<DataEntry number="50.20.20.60" title="Terminals de drenatge"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.30" title="Instal·lacions térmiques i de ventilació">		
+						<DataEntry number="50.30.10" title="Equips de producció d'instal·lacions tèrmiques">	
+							<DataEntry number="50.30.10.10" title="Torres de refrigeració"/>
+							<DataEntry number="50.30.10.20" title="Unitats exteriors d'instal·lacions tèrmiques"/>
+							<DataEntry number="50.30.10.30" title="Unitats interiors d'instal·lacions tèrmiques"/>
+							<DataEntry number="50.30.10.40" title="Calderes"/>
+							<DataEntry number="50.30.10.50" title="Termoacumuladors"/>
+							<DataEntry number="50.30.10.60" title="Geotèrmia"/>
+							<DataEntry number="50.30.10.70" title="Captadors solars tèrmics"/>
+							<DataEntry number="50.30.10.80" title="Ventiladors"/>
+							<DataEntry number="50.30.10.90" title="Recuperadors"/>
+						</DataEntry>
+						<DataEntry number="50.30.20" title="Equips secundaris d'instal·lacions tèrmiques">	
+							<DataEntry number="50.30.20.10" title="Equips de bombeig d'instal·lacions tèrmiques"/>
+							<DataEntry number="50.30.20.20" title="Silenciadors"/>
+							<DataEntry number="50.30.20.30" title="Comportes"/>
+							<DataEntry number="50.30.20.40" title="Reguladors"/>
+							<DataEntry number="50.30.20.50" title="Condensadors"/>
+							<DataEntry number="50.30.20.60" title="Vàlvules i instruments de mesura i control de fluxe de climatització"/>
+						</DataEntry>
+						<DataEntry number="50.30.30" title="Circuits de distribució de fluids fred/calor">	
+							<DataEntry number="50.30.30.10" title="Línies frigorífiques"/>
+							<DataEntry number="50.30.30.20" title="Línies hidràuliques"/>
+						</DataEntry>
+						<DataEntry number="50.30.40" title="Conductes de distribució d'aire">	
+							<DataEntry number="50.30.40.10" title="Aportació de aire primari"/>
+							<DataEntry number="50.30.40.20" title="Extracció de aire primari"/>
+							<DataEntry number="50.30.40.30" title="Impulsió de aire tractat"/>
+							<DataEntry number="50.30.40.40" title="Retorn de aire tractat"/>
+							<DataEntry number="50.30.40.50" title="Extracció de fums"/>
+						</DataEntry>
+						<DataEntry number="50.30.50" title="Terminals i difusors">	
+							<DataEntry number="50.30.50.10" title="Radiadors"/>
+							<DataEntry number="50.30.50.20" title="Difusors"/>
+							<DataEntry number="50.30.50.30" title="Terra radiant"/>
+							<DataEntry number="50.30.50.40" title="Forjats radiants"/>
+							<DataEntry number="50.30.50.50" title="Reixetes"/>
+						</DataEntry>
+						<DataEntry number="50.30.60" title="Dispositius de maniobra i control">	
+							<DataEntry number="50.30.60.10" title="Cablejat / BUS de climatització"/>
+							<DataEntry number="50.30.60.20" title="Detectors de CO2"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.40" title="Subministrament de combustibles">		
+						<DataEntry number="50.40.10" title="Equips principals de subministrament de combustibles">	
+							<DataEntry number="50.40.10.10" title="Equips de mesura, regulació i control de combustibles"/>
+							<DataEntry number="50.40.10.20" title="Dipòsits de combustible"/>
+							<DataEntry number="50.40.10.30" title="Grups de pressió de combustible"/>
+						</DataEntry>
+						<DataEntry number="50.40.20" title="Equips secundaris de subministrament de combustibles">	
+							<DataEntry number="50.40.20.10" title="Vàlvules i instruments de mesura i control de fluxe de combustibles"/>
+							<DataEntry number="50.40.20.20" title="Dispositius de subministrament de combustibles"/>
+						</DataEntry>
+						<DataEntry number="50.40.30" title="Xarxa de distribució de subministrament de combustibles">	
+							<DataEntry number="50.40.30.10" title="Canalitzacions de subministrament de combustibles"/>
+							<DataEntry number="50.40.30.20" title="Arquetes i pous de subministrament de combustibles"/>
+						</DataEntry>
+						<DataEntry number="50.40.40" title="Terminals de subministrament de combustibles">	
+							<DataEntry number="50.40.40.10" title="Aixetes de subministrament de combustibles"/>
+							<DataEntry number="50.40.40.20" title="Cremadors"/>
+						</DataEntry>
+						<DataEntry number="50.40.50" title="Dispositius de maniobra i control">	
+							<DataEntry number="50.40.50.10" title="Cablejat / BUS per a subministrament de combustibles"/>
+							<DataEntry number="50.40.50.20" title="Detector de gasos "/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.50" title="Protecció contra incendis">		
+						<DataEntry number="50.50.10" title="Extinció d'incendis">	
+							<DataEntry number="50.50.10.10" title="Dipòsits d'extinció d'incendis"/>
+							<DataEntry number="50.50.10.20" title="Grups de pressió d'extinció d'incendis"/>
+							<DataEntry number="50.50.10.30" title="Vàlvules i instruments de mesura i control de fluxe d'extinció d'incendis"/>
+							<DataEntry number="50.50.10.40" title="Dispositius d'extinció d'incendis"/>
+							<DataEntry number="50.50.10.50" title="Canalitzacions d'extinció d'incendis"/>
+							<DataEntry number="50.50.10.60" title="Ruixadors"/>
+							<DataEntry number="50.50.10.70" title="BIES"/>
+							<DataEntry number="50.50.10.80" title="Extintors"/>
+						</DataEntry>
+						<DataEntry number="50.50.20" title="Detecció d'incendis">	
+							<DataEntry number="50.50.20.10" title="Centraletes i racks de detecció d'incendis"/>
+							<DataEntry number="50.50.20.20" title="Equips especials de detecció d'incendis"/>
+							<DataEntry number="50.50.20.30" title="Canalitzacions de detecció d'incendis"/>
+							<DataEntry number="50.50.20.40" title="Caixes de distribució de detecció d'incendis"/>
+						</DataEntry>
+						<DataEntry number="50.50.30" title="Dispositius de maniobra i control">	
+							<DataEntry number="50.50.30.10" title="Polsadors"/>
+							<DataEntry number="50.50.30.20" title="Quadres de comandament per contra incendis"/>
+							<DataEntry number="50.50.30.30" title="Detectors d'incendis"/>
+							<DataEntry number="50.50.30.40" title="Mecanismes d'extinció i detecció d'incendis"/>
+							<DataEntry number="50.50.30.50" title="Cablejat / BUS de contra incendis"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.60" title="Instal·lacions elèctriques">		
+						<DataEntry number="50.60.10" title="Equips elèctrics principals">	
+							<DataEntry number="50.60.10.10" title="Quadres elèctrics"/>
+							<DataEntry number="50.60.10.20" title="Grups electrògens"/>
+							<DataEntry number="50.60.10.30" title="Escomeses elèctriques"/>
+							<DataEntry number="50.60.10.40" title="Transformadors"/>
+						</DataEntry>
+						<DataEntry number="50.60.20" title="Equips elèctrics secundaris">	
+							<DataEntry number="50.60.20.10" title="Bateries i SAI"/>
+							<DataEntry number="50.60.20.20" title="Quadres de comandament elèctric"/>
+							<DataEntry number="50.60.20.30" title="Bateries de condensadors"/>
+							<DataEntry number="50.60.20.40" title="Embarrats i transformadors"/>
+						</DataEntry>
+						<DataEntry number="50.60.30" title="Canalitzacions de distribució elèctriques">	
+							<DataEntry number="50.60.30.10" title="Safates de distribució elèctrica"/>
+							<DataEntry number="50.60.30.20" title="Canals de superfície de distribució eléctrica"/>
+							<DataEntry number="50.60.30.30" title="Caixes de distribució elèctrica"/>
+							<DataEntry number="50.60.30.40" title="Mànegues i tubs de distribució elèctrica"/>
+							<DataEntry number="50.60.30.50" title="Arquetes i pous de distribució elèctrica"/>
+							<DataEntry number="50.60.30.60" title="Cablejat elèctric"/>
+						</DataEntry>
+						<DataEntry number="50.60.40" title="Dispositius de maniobra i control">	
+							<DataEntry number="50.60.40.10" title="Mecanismes"/>
+							<DataEntry number="50.60.40.20" title="Preses"/>
+						</DataEntry>
+						<DataEntry number="50.60.50" title="Il·luminació">	
+							<DataEntry number="50.60.50.10" title="Il·luminació exterior"/>
+							<DataEntry number="50.60.50.20" title="Il·luminació interior"/>
+							<DataEntry number="50.60.50.30" title="Il·luminació d'emergència"/>
+						</DataEntry>
+						<DataEntry number="50.60.60" title="Xarxa de terres">	
+							<DataEntry number="50.60.60.10" title="Parallamps"/>
+							<DataEntry number="50.60.60.20" title="Piquetes i arquetes"/>
+							<DataEntry number="50.60.60.30" title="Mecanismes de la xarxa de terres"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.70" title="Telecomunicacions i audiovisuals">		
+						<DataEntry number="50.70.10" title="Equips principals de telecomunicacions">	
+							<DataEntry number="50.70.10.10" title="Antenes"/>
+							<DataEntry number="50.70.10.20" title="Escomeses de telecomunicacions"/>
+							<DataEntry number="50.70.10.30" title="Armaris RACK"/>
+							<DataEntry number="50.70.10.40" title="Servidors"/>
+						</DataEntry>
+						<DataEntry number="50.70.20" title="Equips secundaris de telecomunicacions">	
+							<DataEntry number="50.70.20.10" title="Conversors"/>
+							<DataEntry number="50.70.20.20" title="Amplificadors"/>
+							<DataEntry number="50.70.20.30" title="Altaveus"/>
+							<DataEntry number="50.70.20.40" title="Centraletes"/>
+							<DataEntry number="50.70.20.50" title="Routers"/>
+							<DataEntry number="50.70.20.60" title="Monitors"/>
+						</DataEntry>
+						<DataEntry number="50.70.30" title="Canalitzacions de distribució per a senyals dèbils">	
+							<DataEntry number="50.70.30.10" title="Safates de distribució per a senyals dèbils"/>
+							<DataEntry number="50.70.30.20" title="Canals de superficie  per a senyals dèbils"/>
+							<DataEntry number="50.70.30.30" title="Caixes de distribució per a senyals dèbils"/>
+							<DataEntry number="50.70.30.40" title="Cablejat  de senyals dèbils"/>
+							<DataEntry number="50.70.30.50" title="Mànegues i tubs de distribució per a senyals dèbils"/>
+							<DataEntry number="50.70.30.60" title="Arquetes i pous  per a senyals dèbils"/>
+						</DataEntry>
+						<DataEntry number="50.70.40" title="Dispositius de maniobra i control de telecomunicacions">	
+							<DataEntry number="50.70.40.10" title="Preses de telecomunicacions "/>
+							<DataEntry number="50.70.40.20" title="Quadres de comandament de telecomunicacions"/>
+						</DataEntry>
+						<DataEntry number="50.70.50" title="Terminals de telecomunicacions">	
+							<DataEntry number="50.70.50.10" title="Equips de telecomunicacions"/>
+							<DataEntry number="50.70.50.20" title="Emissors de telecomunicacions"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.80" title="Seguretat i antiintrusió">		
+						<DataEntry number="50.80.10" title="Equips de seguretat i antiintrusió">	
+							<DataEntry number="50.80.10.10" title="Racks per seguretat i antiintrusió"/>
+							<DataEntry number="50.80.10.20" title="Centraletes de seguretat"/>
+							<DataEntry number="50.80.10.30" title="Telefonia"/>
+						</DataEntry>
+						<DataEntry number="50.80.20" title="Sistemes anti-intrusió">	
+							<DataEntry number="50.80.20.10" title="Detectors anti-intrusió"/>
+							<DataEntry number="50.80.20.20" title="Circuits de TV"/>
+							<DataEntry number="50.80.20.30" title="Sensors anti-intrusió"/>
+						</DataEntry>
+						<DataEntry number="50.80.30" title="Elements de control de persones">	
+							<DataEntry number="50.80.30.10" title="Control de accessos"/>
+						</DataEntry>
+						<DataEntry number="50.80.40" title="Elements de control de vehicles">	
+							<DataEntry number="50.80.40.10" title="Gestió de trànsit"/>
+						</DataEntry>
+						<DataEntry number="50.80.50" title="Elements d'avís i alarma">	
+							<DataEntry number="50.80.50.10" title="Sirenes"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.90" title="Instal·lacions especials">		
+						<DataEntry number="50.90.10" title="Equips principals d'instal·lacions especials">	
+							<DataEntry number="50.90.10.10" title="Equips de mesura, regulació i control especials"/>
+							<DataEntry number="50.90.10.20" title="Dipòsits d'instal·lacions especials"/>
+							<DataEntry number="50.90.10.30" title="Grups de pressió d'instal·lacions especials"/>
+						</DataEntry>
+						<DataEntry number="50.90.20" title="Equips secundaris d'instal·lacions especials">	
+							<DataEntry number="50.90.20.10" title="Vàlvules i instruments de mesura i control de fluxe especials"/>
+							<DataEntry number="50.90.20.20" title="Dispositius especials"/>
+						</DataEntry>
+						<DataEntry number="50.90.30" title="Xarxa de distribució d'instal·lacions especials">	
+							<DataEntry number="50.90.30.10" title="Canalitzacions especials"/>
+							<DataEntry number="50.90.30.20" title="Arquetes i pous d'instal·lacions especials"/>
+						</DataEntry>
+						<DataEntry number="50.90.40" title="Terminals d'instal·lacions especials">	
+							<DataEntry number="50.90.40.10" title="Aixetes per a instal·lacions especials"/>
+							<DataEntry number="50.90.40.20" title="Altres terminals especials"/>
+						</DataEntry>
+						<DataEntry number="50.90.50" title="Dispositius de maniobra i control">	
+							<DataEntry number="50.90.50.10" title="Comandaments"/>
+							<DataEntry number="50.90.50.20" title="Detectors especials"/>
+							<DataEntry number="50.90.50.30" title="Sensors especials"/>
+							<DataEntry number="50.90.50.40" title="Altres dispositius de maniobra i control especials"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.100" title="Altres elements d'instal·lacions">		
+						<DataEntry number="50.100.10" title="Elements comuns d'instal·lacions">	
+							<DataEntry number="50.100.10.10" title="Elements de suport"/>
+							<DataEntry number="50.100.10.20" title="Passareles i escales d'acces per a manteniment"/>
+							<DataEntry number="50.100.10.30" title="Canalitzacions i arquetes comuns d'instal·lacions"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="60" title="Equipaments i mobiliari">			
+					<DataEntry number="60.10" title="Equipaments">		
+						<DataEntry number="60.10.10" title="Cambres humides / sanitaris">	
+							<DataEntry number="60.10.10.10" title="Inodors"/>
+							<DataEntry number="60.10.10.20" title="Urinaris"/>
+							<DataEntry number="60.10.10.30" title="Bidets"/>
+							<DataEntry number="60.10.10.40" title="Plats de dutxa"/>
+							<DataEntry number="60.10.10.50" title="Banyeres"/>
+							<DataEntry number="60.10.10.60" title="Rentamans"/>
+							<DataEntry number="60.10.10.70" title="Piques"/>
+							<DataEntry number="60.10.10.80" title="Accessoris per a cambres humides"/>
+							<DataEntry number="60.10.10.90" title="Safareigs"/>
+							<DataEntry number="60.10.10.100" title="Abocador"/>
+						</DataEntry>
+						<DataEntry number="60.10.20" title="Altres equipaments">	
+							<DataEntry number="60.10.20.10" title="Equipaments per a circulació de vehicles"/>
+							<DataEntry number="60.10.20.20" title="Equipaments comercials"/>
+							<DataEntry number="60.10.20.30" title="Equipaments institucionals"/>
+							<DataEntry number="60.10.20.40" title="Equipaments recreatius"/>
+							<DataEntry number="60.10.20.50" title="Equipaments assistencials"/>
+							<DataEntry number="60.10.20.60" title="Electrodomèstics"/>
+							<DataEntry number="60.10.20.70" title="Aparells informàtics"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="60.20" title="Mobiliari">		
+						<DataEntry number="60.20.10" title="Mobiliari fixe">	
+							<DataEntry number="60.20.10.10" title="Taulells"/>
+							<DataEntry number="60.20.10.20" title="Estants"/>
+							<DataEntry number="60.20.10.30" title="Miralls"/>
+							<DataEntry number="60.20.10.40" title="Mostradors"/>
+							<DataEntry number="60.20.10.50" title="Mobles d'obra"/>
+							<DataEntry number="60.20.10.60" title="Armaris encastats"/>
+							<DataEntry number="60.20.10.70" title="Bancades"/>
+							<DataEntry number="60.20.10.80" title="Altres mobiliaris fixes"/>
+						</DataEntry>
+						<DataEntry number="60.20.30" title="Mobiliari mòbil">	
+							<DataEntry number="60.20.30.10" title="Taules"/>
+							<DataEntry number="60.20.30.20" title="Cadires i sofàs"/>
+							<DataEntry number="60.20.30.30" title="Taburets"/>
+							<DataEntry number="60.20.30.40" title="Bancs"/>
+							<DataEntry number="60.20.30.50" title="Llits"/>
+							<DataEntry number="60.20.30.60" title="Armaris, calaixeres i arxivadors"/>
+							<DataEntry number="60.20.30.70" title="Altres mobiliaris mòbils"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="60.30" title="Sistemes de transport">		
+						<DataEntry number="60.30.10" title="Transport vertical">	
+							<DataEntry number="60.30.10.10" title="Ascensors"/>
+							<DataEntry number="60.30.10.20" title="Muntarcàrregues"/>
+							<DataEntry number="60.30.10.30" title="Escales mecàniques"/>
+						</DataEntry>
+						<DataEntry number="60.30.20" title="Transport horitzontal">	
+							<DataEntry number="60.30.20.10" title="Passarel·les transportadores"/>
+							<DataEntry number="60.30.20.20" title="Altres sistemes de transport"/>
+						</DataEntry>
+						<DataEntry number="60.30.30" title="Manipulació d'elements">	
+							<DataEntry number="60.30.30.10" title="Grues"/>
+							<DataEntry number="60.30.30.20" title="Polipast"/>
+							<DataEntry number="60.30.30.30" title="Cintes transportadores"/>
+							<DataEntry number="60.30.30.40" title="Sistemes pneumàtics"/>
+							<DataEntry number="60.30.30.50" title="Altres sistemes de manipulació"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="70" title="Urbanització dels espais exteriors">			
+					<DataEntry number="70.10" title="Elements de fonamentació, contenció de terres i elements estructurals">		
+						<DataEntry number="70.10.10" title="Fonaments per a elements d'urbanització">	
+							<DataEntry number="70.10.10.10" title="Sabates per a elements d'urbanització"/>
+							<DataEntry number="70.10.10.20" title="Fonamentació especial per a elements d'urbanització"/>
+						</DataEntry>
+						<DataEntry number="70.10.20" title="Murs d'urbanització">	
+							<DataEntry number="70.10.20.10" title="Murs in-situ d'urbanització"/>
+							<DataEntry number="70.10.20.20" title="Murs prefabricats d'urbanització"/>
+							<DataEntry number="70.10.20.30" title="Murs de gravetat"/>
+							<DataEntry number="70.10.20.40" title="Mur terra armada"/>
+							<DataEntry number="70.10.20.50" title="Mur de gabions"/>
+						</DataEntry>
+						<DataEntry number="70.10.30" title="Altres elements estructurals d'urbanització"/>
+					</DataEntry>	
+					<DataEntry number="70.20" title="Elements de tancaments i protecció d'urbanització">		
+						<DataEntry number="70.20.10" title="Tancaments de parcel·la"/>	
+						<DataEntry number="70.20.20" title="Barreres mòbils"/>	
+						<DataEntry number="70.20.30" title="Pilones"/>
+					</DataEntry>	
+					<DataEntry number="70.30" title="Ferms i paviments">		
+						<DataEntry number="70.30.10" title="Bases i subbases"/>	
+						<DataEntry number="70.30.20" title="Paviments peatonals"/>	
+						<DataEntry number="70.30.30" title="Paviments per a trànsit rodat"/>	
+						<DataEntry number="70.30.40" title="Esglaonaments d'urbanització"/>	
+						<DataEntry number="70.30.50" title="Rampes d'urbanització"/>
+					</DataEntry>	
+					<DataEntry number="70.40" title="Instal·lacions i serveis">		
+						<DataEntry number="70.40.10" title="Enllumenat">	
+							<DataEntry number="70.40.10.10" title="Lluminàries i bàculs"/>
+							<DataEntry number="70.40.10.20" title="Elements d'abalisament"/>
+							<DataEntry number="70.40.10.30" title="Elements de la xarxa i control"/>
+						</DataEntry>
+						<DataEntry number="70.40.20" title="Reg i abastament de font">	
+							<DataEntry number="70.40.20.10" title="Canalitzacions de reg"/>
+							<DataEntry number="70.40.20.20" title="Accesoris de reg"/>
+							<DataEntry number="70.40.20.30" title="Arquetes de reg"/>
+						</DataEntry>
+						<DataEntry number="70.40.30" title="Drenatge">	
+							<DataEntry number="70.40.30.10" title="Canalitzacions de drenatge"/>
+							<DataEntry number="70.40.30.20" title="Reixes i buneras"/>
+							<DataEntry number="70.40.30.30" title="Arquetes i pous de drenatge"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="70.50" title="Jardineria">		
+						<DataEntry number="70.50.10" title="Plantacions">	
+							<DataEntry number="70.50.10.10" title="Arbrats"/>
+							<DataEntry number="70.50.10.20" title="Gespa"/>
+							<DataEntry number="70.50.10.30" title="Arbustives"/>
+						</DataEntry>
+						<DataEntry number="70.50.20" title="Parterres">	
+							<DataEntry number="70.50.20.10" title="Parterres fixos"/>
+							<DataEntry number="70.50.20.20" title="Parterres mòbils"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="70.60" title="Mobiliari urbà i elements de senyalització">		
+						<DataEntry number="70.60.10" title="Mobiliari exterior"/>	
+						<DataEntry number="70.60.20" title="Jocs infantils"/>	
+						<DataEntry number="70.60.30" title="Mobiliari exterior especial"/>	
+						<DataEntry number="70.60.40" title="Senyalització horitzontal"/>	
+						<DataEntry number="70.60.50" title="Senyalització vertical"/>
+					</DataEntry>
+				</DataEntry>	
+				<DataEntry number="80" title="Construccions i instal·lacions temporals">			
+					<DataEntry number="80.10" title="Implantacions d'obra">		
+						<DataEntry number="80.10.10" title="Bastides">	
+							<DataEntry number="80.10.10.10" title="Pont volant"/>
+							<DataEntry number="80.10.10.20" title="Bastida fixa"/>
+							<DataEntry number="80.10.10.30" title="Cavallet"/>
+							<DataEntry number="80.10.10.40" title="Bastida movil"/>
+							<DataEntry number="80.10.10.50" title="Marquesines"/>
+							<DataEntry number="80.10.10.60" title="Lones"/>
+						</DataEntry>
+						<DataEntry number="80.10.20" title="Grues">	
+							<DataEntry number="80.10.20.10" title="Grua torre"/>
+							<DataEntry number="80.10.20.20" title="Grueta"/>
+							<DataEntry number="80.10.20.30" title="Muntacàrregues d'obra"/>
+							<DataEntry number="80.10.20.40" title="Corrioles i polipasts"/>
+						</DataEntry>
+						<DataEntry number="80.10.30" title="Casetes">	
+							<DataEntry number="80.10.30.10" title="Casetes d'obra"/>
+							<DataEntry number="80.10.30.20" title="Lavabos portàtils"/>
+							<DataEntry number="80.10.30.30" title="Casetes d'enmagatzematge"/>
+							<DataEntry number="80.10.30.40" title="Altres mòduls"/>
+						</DataEntry>
+						<DataEntry number="80.10.40" title="Tancaments i senyalització">	
+							<DataEntry number="80.10.40.10" title="Tancaments perimetrals"/>
+							<DataEntry number="80.10.40.20" title="Portes d'accés"/>
+							<DataEntry number="80.10.40.30" title="Rètols"/>
+							<DataEntry number="80.10.40.40" title="Balises de senyalització"/>
+						</DataEntry>
+						<DataEntry number="80.10.50" title="Aplecs">	
+							<DataEntry number="80.10.50.10" title="Aplec de terres i àrids"/>
+							<DataEntry number="80.10.50.20" title="Aplec de productes"/>
+							<DataEntry number="80.10.50.30" title="Palets"/>
+						</DataEntry>
+						<DataEntry number="80.10.60" title="Altres elements d'implantació d'obra">	
+							<DataEntry number="80.10.60.10" title="Sitja"/>
+							<DataEntry number="80.10.60.20" title="Dipòsits d'obra"/>
+						</DataEntry>
+						<DataEntry number="80.10.70" title="Gestió de residus">	
+							<DataEntry number="80.10.70.10" title="Saca de runa"/>
+							<DataEntry number="80.10.70.20" title="Contenidor de runa"/>
+							<DataEntry number="80.10.70.30" title="Runa"/>
+							<DataEntry number="80.10.70.40" title="Residus especials"/>
+							<DataEntry number="80.10.70.50" title="Ferralla"/>
+							<DataEntry number="80.10.70.60" title="Tub de descàrrega de runa"/>
+							<DataEntry number="80.10.70.70" title="Tremuja"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.20" title="Construccions temporals">		
+						<DataEntry number="80.20.10" title="Estructures auxiliars i estintolaments">	
+							<DataEntry number="80.20.10.10" title="Fonamentacions auxiliars"/>
+							<DataEntry number="80.20.10.20" title="Estintolament de façanes"/>
+							<DataEntry number="80.20.10.30" title="Estintolament de serveis"/>
+							<DataEntry number="80.20.10.40" title="Encofrats auxiliars"/>
+						</DataEntry>
+						<DataEntry number="80.20.20" title="Instal·lacions provisionals">	
+							<DataEntry number="80.20.20.10" title="Instal·lació provisional elèctrica"/>
+							<DataEntry number="80.20.20.20" title="Instal·lació provisional d'aigua"/>
+							<DataEntry number="80.20.20.30" title="Instal·lació provisional de sanejament"/>
+							<DataEntry number="80.20.20.40" title="Altres instal·lacions provisionals"/>
+						</DataEntry>
+						<DataEntry number="80.20.30" title="Altres construccions temporals">	
+							<DataEntry number="80.20.30.10" title="Altres construccions temporals"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.30" title="Equips i eines">		
+						<DataEntry number="80.30.10" title="Maquinària">	
+							<DataEntry number="80.30.10.10" title="Maquinària d'excavació i fonamentació"/>
+							<DataEntry number="80.30.10.20" title="Maquinària per a enderrocs"/>
+							<DataEntry number="80.30.10.30" title="Maquinària d'elevació"/>
+							<DataEntry number="80.30.10.40" title="Maquinària d'transport"/>
+							<DataEntry number="80.30.10.50" title="Maquinàrìa de tractament de materials"/>
+							<DataEntry number="80.30.10.60" title="Altres tipus de maquinària"/>
+						</DataEntry>
+						<DataEntry number="80.30.20" title="Eines">	
+							<DataEntry number="80.30.20.10" title="Eines manuals"/>
+							<DataEntry number="80.30.20.20" title="Eines no manuals"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.40" title="Seguretat i salut">		
+						<DataEntry number="80.40.10" title="Proteccions individuals i colectives">	
+							<DataEntry number="80.40.10.10" title="Equips de protecció individual"/>
+							<DataEntry number="80.40.10.20" title="Tanques de protecció caigudes"/>
+							<DataEntry number="80.40.10.30" title="Xarxes de protecció "/>
+							<DataEntry number="80.40.10.40" title="Línies de vida"/>
+							<DataEntry number="80.40.10.50" title="Altres mitjans de protecció col·lectiva"/>
+						</DataEntry>
+						<DataEntry number="80.40.20" title="Equips de mesura preventiva">	
+							<DataEntry number="80.40.20.10" title="Equips de mesura i detecció de seguretat i salut"/>
+						</DataEntry>
+						<DataEntry number="80.40.30" title="Delimitacions de zones de seguretat">	
+							<DataEntry number="80.40.30.10" title="Zones de trànsit rodat i maquinària"/>
+							<DataEntry number="80.40.30.20" title="Zones de pas de persones"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+			</DataEntries>
+		</Data>
+		<Script>
+			<CreateClassificationReference>
+				<IfcRelAssociatesClassification Name="GuBIMclass v.1.2 CA">
+					<IfcClassificationReference ItemReference="$number" Location="http://www.gubimclass.org" Name="$title">
+						<IfcClassification Edition="v.1.2" Name="GuBIMclass (CA)" Source="http://www.gubimclass.org">
+							<IfcCalendarDate DayComponent="21" MonthComponent="07" YearComponent="2017"/>
+							<!-- EditionDate -->
+						</IfcClassification>
+					</IfcClassificationReference>
+				</IfcRelAssociatesClassification>
+			</CreateClassificationReference>
+		</Script>
+	</Rule>
+	
+</Rules>

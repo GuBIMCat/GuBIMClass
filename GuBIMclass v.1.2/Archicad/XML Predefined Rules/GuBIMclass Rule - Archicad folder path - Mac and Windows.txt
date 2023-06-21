@@ -1,0 +1,7 @@
+Les regles per defecte (XML dels sistema de classificació precarregats) estan disponibles a la següent carpeta, i les noves regles creades s'haurien també d'incloure en la mateixa ruta:
+
+- A Windows:
+\Users\user name\GRAPHISOFT\IFC Rules “ArchiCAD version”
+- A Mac:
+/Users/user name/Library/Application Support/GRAPHISOFT/IFC Rules “ArchiCAD
+version”

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules Name="GuBIMclass v.1.2 ES">
+	<Rule>
+		<Name>GuBIMclass v.1.2 ES</Name>
+		<Description>Sistema de clasificación de elementos de construcción de acuerdo a su función principal dentro de un entorno BIM.'Aplicar' crea una Referencia de clasificación para la entidad IFC seleccionada, utilizando los atributos requeridos por GuBIMclass derivados del elemento que elija en la siguiente lista.</Description>
+		<ApplicableTo>
+			<ClassName>IfcProject</ClassName>
+			<ClassName>IfcSpatialStructureElement</ClassName>
+			<ClassName>IfcGroup</ClassName>
+			<ClassName>IfcActor</ClassName>
+			<ClassName>IfcControl</ClassName>
+			<ClassName>IfcSpaceType</ClassName>
+			<ClassName>IfcElement</ClassName>
+			<ClassName>IfcTypeObject</ClassName>
+			<ClassName>IfcSite</ClassName>
+			<ClassName>IfcBuilding</ClassName>
+			<ClassName>IfcSystem</ClassName>
+		</ApplicableTo>
+		<Data>
+			<DataDescriptors>
+				<DataDescriptor Title="Code" Variable="number"/>
+				<DataDescriptor Title="Description" Variable="title"/>
+			</DataDescriptors>
+			<DataEntries>
+				<DataEntry number="00" title="Trabajos previos y replanteo general">
+					<DataEntry number="00.10" title="Elementos auxiliares de replanteo del modelo">
+						<DataEntry number="00.10.10" title="Origen de coordenadas"/>
+						<DataEntry number="00.10.20" title="Elementos de alineación de modelo"/>
+						<DataEntry number="00.10.30" title="Ejes"/>
+						<DataEntry number="00.10.40" title="Niveles"/>
+					</DataEntry>
+					<DataEntry number="00.20" title="Preexistencias">
+						<DataEntry number="00.20.10" title="Edificaciones colindantes preexistentes"/>
+						<DataEntry number="00.20.20" title="Elementos de entorno urbano preexistente"/>
+						<DataEntry number="00.20.30" title="Servicios urbanos preexistentes"/>
+					</DataEntry>
+					<DataEntry number="00.30" title="Ensayos previos">
+						<DataEntry number="00.30.10" title="Ensayo en el terreno">
+							<DataEntry number="00.30.10.10" title="Sondeo"/>
+							<DataEntry number="00.30.10.20" title="Penetrómetro"/>
+							<DataEntry number="00.30.10.30" title="Piezómetro"/>
+						</DataEntry>
+						<DataEntry number="00.30.20" title="Ensayo en elementos estructurales">	
+							<DataEntry number="00.30.20.10" title="Ensayo sobre elemento de hormigón"/>
+							<DataEntry number="00.30.20.20" title="Ensayo sobre estructura acero"/>
+							<DataEntry number="00.30.20.30" title="Ensayo sobre estructura fábrica"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="10" title="Adecuación del terreno y sustentación del edificio">
+					<DataEntry number="10.10" title="Actuaciones para reducir y controlar las afectaciones a edificios vecinos, servicios y otros elementos">
+						<DataEntry number="10.10.10" title="Apuntalamientos y arriostramientos">
+							<DataEntry number="10.10.10.10" title="Puntales metálicos"/>
+							<DataEntry number="10.10.10.20" title="Anclajes temporales"/>
+						</DataEntry>
+						<DataEntry number="10.10.20" title="Otras actuaciones para controlar afectaciones"/>
+					</DataEntry>
+					<DataEntry number="10.20" title="Movimiento de tierras">
+						<DataEntry number="10.20.10" title="Topografía"/>
+						<DataEntry number="10.20.20" title="Excavaciones">
+							<DataEntry number="10.20.20.10" title="Excavación general"/>
+							<DataEntry number="10.20.20.20" title="Excavación de cimentación"/>
+						</DataEntry>
+						<DataEntry number="10.20.30" title="Rellenos">
+							<DataEntry number="10.20.30.10" title="Terraplenado"/>
+							<DataEntry number="10.20.30.20" title="Mejora del terreno"/>
+							<DataEntry number="10.20.30.30" title="Relleno trasdós del muro"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="10.30" title="Rebaje del nivel freático">
+						<DataEntry number="10.30.10" title="Elementos generales de agotamiento del nivel freático">
+							<DataEntry number="10.30.10.10" title="Decantador"/>
+							<DataEntry number="10.30.10.20" title="Tubería para agotamientos"/>
+							<DataEntry number="10.30.10.30" title="Contador para agotamientos"/>
+						</DataEntry>
+						<DataEntry number="10.30.20" title="Agotamiento con sistema de bombeo">
+							<DataEntry number="10.30.20.10" title="Pozo de bombeo"/>
+						</DataEntry>
+						<DataEntry number="10.30.30" title="Agotamiento con sistema Wellpoint">
+							<DataEntry number="10.30.30.10" title="Lanza de succión"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="20" title="Sistema estructural">
+					<DataEntry number="20.10" title="Cimientos y contención de tierras">
+						<DataEntry number="20.10.10" title="Elementos superficiales">
+							<DataEntry number="20.10.10.10" title="Vigas riostra"/>
+							<DataEntry number="20.10.10.20" title="Zapatas"/>
+							<DataEntry number="20.10.10.30" title="Encepados"/>
+							<DataEntry number="20.10.10.40" title="Losas de cimentación"/>
+							<DataEntry number="20.10.10.50" title="Hormigón de limpieza"/>
+							<DataEntry number="20.10.10.60" title="Pozos de cimentación"/>
+						</DataEntry>
+						<DataEntry number="20.10.20" title="Elementos profundos">
+							<DataEntry number="20.10.20.20" title="Pantallas de cimentación"/>
+							<DataEntry number="20.10.20.30" title="Pilotes de cimentación"/>
+							<DataEntry number="20.10.20.40" title="Micropilotes"/>
+							<DataEntry number="20.10.20.50" title="Jet-grouting"/>
+						</DataEntry>
+						<DataEntry number="20.10.30" title="Elementos de contención">
+							<DataEntry number="20.10.30.10" title="Muros de contención"/>
+							<DataEntry number="20.10.30.15" title="Muro gunitado"/>
+							<DataEntry number="20.10.30.20" title="Pantallas de contención"/>
+							<DataEntry number="20.10.30.30" title="Pilones de contención"/>
+							<DataEntry number="20.10.30.40" title="Muros de micropilotes"/>
+							<DataEntry number="20.10.30.50" title="Muros de jet-grouting"/>
+							<DataEntry number="20.10.30.60" title="Muros de tablestacas"/>
+							<DataEntry number="20.10.30.70" title="Sistemas de anclaje y apuntalamiento de elementos de contención definitivos"/>
+						</DataEntry>
+						<DataEntry number="20.10.40" title="Bases">
+							<DataEntry number="20.10.40.10" title="Soleras"/>
+							<DataEntry number="20.10.40.20" title="Rampas"/>
+							<DataEntry number="20.10.40.30" title="Subbases"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="20.20" title="Estructura">
+						<DataEntry number="20.20.10" title="Estructura vertical">
+							<DataEntry number="20.20.10.10" title="Pilares"/>
+							<DataEntry number="20.20.10.20" title="Ménsulas"/>
+							<DataEntry number="20.20.10.30" title="Muros estructurales"/>
+							<DataEntry number="20.20.10.40" title="Escaleras de estructura"/>
+							<DataEntry number="20.20.10.50" title="Rampas de estructura"/>
+							<DataEntry number="20.20.10.60" title="Tensores verticales"/>
+						</DataEntry>
+						<DataEntry number="20.20.20" title="Estructura horizontal">
+							<DataEntry number="20.20.20.10" title="Forjados"/>
+							<DataEntry number="20.20.20.20" title="Jácenas"/>
+							<DataEntry number="20.20.20.30" title="Cerchas"/>
+							<DataEntry number="20.20.20.40" title="Viguetas"/>
+							<DataEntry number="20.20.20.50" title="Tensores horizontales"/>
+						</DataEntry>
+						<DataEntry number="20.20.30" title="Estructura tridimensional">
+							<DataEntry number="20.20.30.10" title="Bóveda"/>
+							<DataEntry number="20.20.30.20" title="Arco"/>
+							<DataEntry number="20.20.30.30" title="Cúpula"/>
+							<DataEntry number="20.20.30.40" title="Malla espacial"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="30" title="Sistemas de envolvente y de acabados exteriores">
+					<DataEntry number="30.10" title="Envolvente vertical">
+						<DataEntry number="30.10.10" title="Fachadas">
+							<DataEntry number="30.10.10.10" title="Fachadas in situ"/>
+							<DataEntry number="30.10.10.20" title="Fachadas prefabricadas"/>
+							<DataEntry number="30.10.10.30" title="Sistemas especiales de fachadas"/>
+							<DataEntry number="30.10.10.40" title="Acabados de fachadas"/>
+							<DataEntry number="30.10.10.50" title="Remates de fachadas"/>
+						</DataEntry>
+						<DataEntry number="30.10.20" title="Carpintería de fachada">
+							<DataEntry number="30.10.20.10" title="Ventanas de fachadas"/>
+							<DataEntry number="30.10.20.20" title="Puertas de fachadas"/>
+							<DataEntry number="30.10.20.30" title="Protecciones solares de fachadas"/>
+							<DataEntry number="30.10.20.40" title="Protecciones de seguridad de fachadas"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.20" title="Envolvente horizontal superior">
+						<DataEntry number="30.20.10" title="Cubiertas">
+							<DataEntry number="30.20.10.10" title="Cubiertas in-situ"/>
+							<DataEntry number="30.20.10.20" title="Cubiertas prefabricadas"/>
+							<DataEntry number="30.20.10.30" title="Sistemas especiales de cubiertas"/>
+							<DataEntry number="30.20.10.40" title="Acabados de cubiertas"/>
+							<DataEntry number="30.20.10.50" title="Remates de cubiertas"/>
+						</DataEntry>
+						<DataEntry number="30.20.20" title="Carpintería de cubiertas">
+							<DataEntry number="30.20.20.10" title="Ventanas de cubiertas"/>
+							<DataEntry number="30.20.20.20" title="Puertas de cubiertas"/>
+							<DataEntry number="30.20.20.30" title="Protecciones solares de cubiertas"/>
+							<DataEntry number="30.20.20.40" title="Protecciones seguridad de cubiertas"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.30" title="Envolvente horizontal inferior">
+						<DataEntry number="30.30.10" title="Compartimentación exterior horizontal">
+							<DataEntry number="30.30.10.10" title="Falsos techos exteriores"/>
+							<DataEntry number="30.30.10.20" title="Remates compartimentación exterior horizontal"/>
+						</DataEntry>
+						<DataEntry number="30.30.20" title="Acabados envolvente horizontal inferior">
+							<DataEntry number="30.30.20.10" title="Revestimientos continuos de envolvente inferior"/>
+							<DataEntry number="30.30.20.20" title="Remates envolvente inferior"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="30.40" title="Escaleras y rampas exteriores">
+						<DataEntry number="30.40.10" title="Escalonado exterior">
+							<DataEntry number="30.40.10.10" title="Escalones exteriores"/>
+							<DataEntry number="30.40.10.20" title="Recrecido de escalones exteriores"/>
+						</DataEntry>
+						<DataEntry number="30.40.20" title="Acabados de escalonado y rampas exteriores">
+							<DataEntry number="30.40.20.10" title="Acabado tramo exterior"/>
+							<DataEntry number="30.40.20.20" title="Acabado rellano exterior"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="40" title="Sistemas de compartimentación y de acabados interiores">
+					<DataEntry number="40.10" title="Compartimentación y acabados interiores verticales">
+						<DataEntry number="40.10.10" title="Compartimentación interior vertical">
+							<DataEntry number="40.10.10.10" title="Tabiques"/>
+							<DataEntry number="40.10.10.20" title="Mamparas"/>
+							<DataEntry number="40.10.10.30" title="Trasdosados"/>
+							<DataEntry number="40.10.10.40" title="Carpintería interior"/>
+							<DataEntry number="40.10.10.50" title="Protecciones interiores"/>
+						</DataEntry>
+						<DataEntry number="40.10.20" title="Acabados interiores verticales">
+							<DataEntry number="40.10.20.10" title="Revestimientos discontinuos"/>
+							<DataEntry number="40.10.20.20" title="Revestimientos continuos"/>
+							<DataEntry number="40.10.20.30" title="Remates interiores"/>
+							<DataEntry number="40.10.20.40" title="Pinturas y vinilos"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.20" title="Sistemas de compartimentación y de acabados interiores">
+						<DataEntry number="40.20.10" title="Compartimentación interior horizontal">
+							<DataEntry number="40.20.10.10" title="Falsos techos interiores"/>
+							<DataEntry number="40.20.10.20" title="Suelos técnicos"/>
+							<DataEntry number="40.20.10.30" title="Recrecidos"/>	
+						</DataEntry>
+						<DataEntry number="40.20.20" title="Acabados interiores horizontales">
+							<DataEntry number="40.20.20.10" title="Revestimientos techos"/>
+							<DataEntry number="40.20.20.20" title="Pavimentos"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.30" title="Escaleras y rampas interiores">
+						<DataEntry number="40.30.10" title="Escalonado interior">
+							<DataEntry number="40.30.10.10" title="Escalones interiores"/>
+							<DataEntry number="40.30.10.20" title="Recrecido de escalones interiores"/>	
+						</DataEntry>
+						<DataEntry number="40.30.20" title="Acabados de escalonado y rampas interiores">
+							<DataEntry number="40.30.20.10" title="Acabado tramo interior"/>
+							<DataEntry number="40.30.20.20" title="Acabado rellano interior"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="40.40" title="Elementos especiales de acabados interiores">
+						<DataEntry number="40.40.10" title="Elementos de señalización">
+							<DataEntry number="40.40.10.10" title="Señalización de techo"/>
+							<DataEntry number="40.40.10.20" title="Señalización mural"/>
+							<DataEntry number="40.40.10.30" title="Señalización de suelos"/>
+						</DataEntry>
+						<DataEntry number="40.40.20" title="Otros elementos especiales de acabados interiores"/>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="50" title="Sistemas de acondicionamiento, instalaciones y servicios">
+					<DataEntry number="50.10" title="Fontanería">
+						<DataEntry number="50.10.10" title="Equipos principales de fontanería">
+							<DataEntry number="50.10.10.10" title="Equipos de medida y control de fontanería"/>
+							<DataEntry number="50.10.10.20" title="Grupos de presión de fontanería"/>
+							<DataEntry number="50.10.10.30" title="Depósitos, acumuladores y calentadores"/>
+						</DataEntry>
+						<DataEntry number="50.10.20" title="Red de distribución de fontanería">
+							<DataEntry number="50.10.20.10" title="Válvulas e instrumentos de medida y control de flujo de fontanería"/>
+							<DataEntry number="50.10.20.20" title="Dispositivos de fontanería"/>
+							<DataEntry number="50.10.20.30" title="Canalizaciones de agua sanitaria"/>
+							<DataEntry number="50.10.20.40" title="Canalizaciones de agua tratada"/>
+							<DataEntry number="50.10.20.50" title="Arquetas y pozos de fontanería"/>
+							<DataEntry number="50.10.20.60" title="Terminales de fontanería"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.20" title="Evacuación de aguas">
+						<DataEntry number="50.20.10" title="Equipos principales de evacuación de aguas">
+							<DataEntry number="50.20.10.10" title="Equipos de medida y control de evacuación de aguas"/>
+							<DataEntry number="50.20.10.20" title="Grupos de presión de evacuación de aguas"/>
+							<DataEntry number="50.20.10.30" title="Depósitos de evacuación de aguas"/>
+							<DataEntry number="50.20.10.40" title="Dispositivos de evacuación de aguas"/>
+						</DataEntry>
+						<DataEntry number="50.20.20" title="Red de recogida">
+							<DataEntry number="50.20.20.10" title="Canalizaciones de aguas pluviales"/>
+							<DataEntry number="50.20.20.20" title="Canalizaciones de aguas residuales"/>
+							<DataEntry number="50.20.20.30" title="Canalizaciones de aguas grises"/>
+							<DataEntry number="50.20.20.40" title="Canalizaciones para ventilación saneamiento"/>
+							<DataEntry number="50.20.20.50" title="Arquetas y pozos de evacuación de aguas"/>
+							<DataEntry number="50.20.20.60" title="Terminales de drenaje"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.30" title="Instalaciones térmicas y de ventilación">
+						<DataEntry number="50.30.10" title="Equipos de producción de instalaciones térmicas">
+							<DataEntry number="50.30.10.10" title="Torres de refrigeración"/>
+							<DataEntry number="50.30.10.20" title="Unidades exteriores de instalaciones térmicas"/>
+							<DataEntry number="50.30.10.30" title="Unidades interiores de instalaciones térmicas"/>
+							<DataEntry number="50.30.10.40" title="Calderas"/>
+							<DataEntry number="50.30.10.50" title="Termoacumuladores"/>
+							<DataEntry number="50.30.10.60" title="Geotermia"/>
+							<DataEntry number="50.30.10.70" title="Captadores solares térmicos"/>
+							<DataEntry number="50.30.10.80" title="Ventiladores"/>
+							<DataEntry number="50.30.10.90" title="Recuperadores"/>
+						</DataEntry>
+						<DataEntry number="50.30.20" title="Equipos secundarios de instalaciones térmicas">
+							<DataEntry number="50.30.20.10" title="Equipos de bombeo de instalaciones térmicas"/>
+							<DataEntry number="50.30.20.20" title="Silenciadores"/>
+							<DataEntry number="50.30.20.30" title="Compuertas"/>
+							<DataEntry number="50.30.20.40" title="Reguladores"/>
+							<DataEntry number="50.30.20.50" title="Condensadores"/>
+							<DataEntry number="50.30.20.60" title="Válvulas e instrumentos de medida y control de flujo de climatización"/>
+						</DataEntry>
+						<DataEntry number="50.30.30" title="Circuitos de distribución de fluidos frío / calor">
+							<DataEntry number="50.30.30.10" title="Líneas frigoríficas"/>
+							<DataEntry number="50.30.30.20" title="Líneas hidráulicas"/>
+						</DataEntry>
+						<DataEntry number="50.30.40" title="Conductos de distribución de aire">
+							<DataEntry number="50.30.40.10" title="Aportación de aire primario"/>
+							<DataEntry number="50.30.40.20" title="Extracción de aire primario"/>
+							<DataEntry number="50.30.40.30" title="Impulsión de aire tratado"/>
+							<DataEntry number="50.30.40.40" title="Retorno de aire tratado"/>
+							<DataEntry number="50.30.40.50" title="Extracción de humos"/>
+						</DataEntry>
+						<DataEntry number="50.30.50" title="Terminales y difusores">
+							<DataEntry number="50.30.50.10" title="Radiadores"/>
+							<DataEntry number="50.30.50.20" title="Difusores"/>
+							<DataEntry number="50.30.50.30" title="Suelo radiante"/>
+							<DataEntry number="50.30.50.40" title="Forjados radiantes"/>
+							<DataEntry number="50.30.50.50" title="Rejillas"/>
+						</DataEntry>
+						<DataEntry number="50.30.60" title="Dispositivos de maniobra y control">
+							<DataEntry number="50.30.60.10" title="Cableado / BUS de climatización"/>
+							<DataEntry number="50.30.60.20" title="Detectores de CO2"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.40" title="Suministro de combustibles">
+						<DataEntry number="50.40.10" title="Equipos principales de suministro de combustibles">
+							<DataEntry number="50.40.10.10" title="Equipos de medida, regulación y control de combustibles"/>
+							<DataEntry number="50.40.10.20" title="Depósitos de combustible"/>
+							<DataEntry number="50.40.10.30" title="Grupos de presión de combustible"/>
+						</DataEntry>
+						<DataEntry number="50.40.20" title="Equipos secundarios de suministro de combustibles">
+							<DataEntry number="50.40.20.10" title="Válvulas e instrumentos de medida y control de flujo de combustibles"/>
+							<DataEntry number="50.40.20.20" title="Dispositivos de suministro de combustibles"/>
+						</DataEntry>
+						<DataEntry number="50.40.30" title="Red de distribución de suministro de combustibles">
+							<DataEntry number="50.40.30.10" title="Canalizaciones de suministro de combustibles"/>
+							<DataEntry number="50.40.30.20" title="Arquetas y pozos de suministro de combustibles"/>
+						</DataEntry>
+						<DataEntry number="50.40.40" title="Terminales de suministro de combustibles">
+							<DataEntry number="50.40.40.10" title="Grifos de suministro de combustibles"/>
+							<DataEntry number="50.40.40.20" title="Quemadores"/>
+						</DataEntry>
+						<DataEntry number="50.40.50" title="Dispositivos de maniobra y control">
+							<DataEntry number="50.40.50.10" title="Cableado / BUS para suministro de combustibles"/>
+							<DataEntry number="50.40.50.20" title="Detector de gases"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.50" title="Protección contra incendios">
+						<DataEntry number="50.50.10" title="Extinción de incendios">
+							<DataEntry number="50.50.10.10" title="Depósitos de extinción de incendios"/>
+							<DataEntry number="50.50.10.20" title="Grupos de presión de extinción de incendios"/>
+							<DataEntry number="50.50.10.30" title="Válvulas e instrumentos de medida y control de flujo de extinción de incendios"/>
+							<DataEntry number="50.50.10.40" title="Dispositivos de extinción de incendios"/>
+							<DataEntry number="50.50.10.50" title="Canalizaciones de extinción de incendios"/>
+							<DataEntry number="50.50.10.60" title="Rociadores"/>
+							<DataEntry number="50.50.10.70" title="BIES"/>
+							<DataEntry number="50.50.10.80" title="Extintores"/>
+						</DataEntry>
+						<DataEntry number="50.50.20" title="Detección de incendios">
+							<DataEntry number="50.50.20.10" title="Centralitas y racks de detección de incendios"/>
+							<DataEntry number="50.50.20.20" title="Equipos especiales de detección de incendios"/>
+							<DataEntry number="50.50.20.30" title="Canalizaciones de detección de incendios"/>
+							<DataEntry number="50.50.20.40" title="Cajas de distribución de detección de incendios"/>
+						</DataEntry>
+						<DataEntry number="50.50.30" title="Dispositivos de maniobra y control">
+							<DataEntry number="50.50.30.10" title="Pulsadores"/>
+							<DataEntry number="50.50.30.20" title="Cuadros de mando para contra incendios"/>
+							<DataEntry number="50.50.30.30" title="Detectores de incendios"/>
+							<DataEntry number="50.50.30.40" title="Mecanismos de extinción y detección de incendios"/>
+							<DataEntry number="50.50.30.50" title="Cableado / BUS de contra incendios"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.60" title="Instalaciones eléctricas">
+						<DataEntry number="50.60.10" title="Equipos eléctricos principales">
+							<DataEntry number="50.60.10.10" title="Cuadros eléctricos"/>
+							<DataEntry number="50.60.10.20" title="Grupos electrógenos"/>
+							<DataEntry number="50.60.10.30" title="Acometidas eléctricas"/>
+							<DataEntry number="50.60.10.40" title="Transformadores"/>
+						</DataEntry>
+						<DataEntry number="50.60.20" title="Equipos eléctricos secundarios">
+							<DataEntry number="50.60.20.10" title="Baterías y SAI"/>
+							<DataEntry number="50.60.20.20" title="Cuadros de mando eléctrico"/>
+							<DataEntry number="50.60.20.30" title="Baterías de condensadores"/>
+							<DataEntry number="50.60.20.40" title="Embarrados y transformadores"/>
+						</DataEntry>
+						<DataEntry number="50.60.30" title="Canalizaciones de distribución eléctricas">
+							<DataEntry number="50.60.30.10" title="Bandejas de distribución eléctrica"/>
+							<DataEntry number="50.60.30.20" title="Canales de superficie de distribución eléctrica"/>
+							<DataEntry number="50.60.30.30" title="Cajas de distribución eléctrica"/>
+							<DataEntry number="50.60.30.40" title="Mangueras y tubos de distribución eléctrica"/>
+							<DataEntry number="50.60.30.50" title="Arquetas y pozos de distribución eléctrica"/>
+							<DataEntry number="50.60.30.60" title="Cableado eléctrico"/>
+						</DataEntry>
+						<DataEntry number="50.60.40" title="Dispositivos de maniobra y control">
+							<DataEntry number="50.60.40.10" title="Mecanismos"/>
+							<DataEntry number="50.60.40.20" title="Tomas"/>
+						</DataEntry>
+						<DataEntry number="50.60.50" title="Iluminación">
+							<DataEntry number="50.60.50.10" title="Iluminación exterior"/>
+							<DataEntry number="50.60.50.20" title="Iluminación interior"/>
+							<DataEntry number="50.60.50.30" title="Iluminación de emergencia"/>
+						</DataEntry>
+						<DataEntry number="50.60.60" title="Red de tierras">
+							<DataEntry number="50.60.60.10" title="Pararrayos"/>
+							<DataEntry number="50.60.60.20" title="Piquetes y arquetas"/>
+							<DataEntry number="50.60.60.30" title="Mecanismos de la red de tierras"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.70" title="Telecomunicaciones y audiovisuales">
+						<DataEntry number="50.70.10" title="Equipos principales de telecomunicaciones">
+							<DataEntry number="50.70.10.10" title="Antenas"/>
+							<DataEntry number="50.70.10.20" title="Acometidas de telecomunicaciones"/>
+							<DataEntry number="50.70.10.30" title="Armarios RACK"/>
+							<DataEntry number="50.70.10.40" title="Servidores"/>
+						</DataEntry>
+						<DataEntry number="50.70.20" title="Equipos secundarios de telecomunicaciones">
+							<DataEntry number="50.70.20.10" title="Conversores"/>
+							<DataEntry number="50.70.20.20" title="Amplificadores"/>
+							<DataEntry number="50.70.20.30" title="Altavoces"/>
+							<DataEntry number="50.70.20.40" title="Centralitas"/>
+							<DataEntry number="50.70.20.50" title="Routers"/>
+							<DataEntry number="50.70.20.60" title="Monitores"/>
+						</DataEntry>
+						<DataEntry number="50.70.30" title="Canalizaciones de distribución para señales débiles">
+							<DataEntry number="50.70.30.10" title="Bandejas de distribución para señales débiles"/>
+							<DataEntry number="50.70.30.20" title="Canales de superficie para señales débiles"/>
+							<DataEntry number="50.70.30.30" title="Cajas de distribución para señales débiles"/>
+							<DataEntry number="50.70.30.40" title="Cableado de señales débiles"/>
+							<DataEntry number="50.70.30.50" title="Mangueras y tubos de distribución para señales débiles"/>
+							<DataEntry number="50.70.30.60" title="Arquetas y pozos para señales débiles"/>	
+						</DataEntry>
+						<DataEntry number="50.70.40" title="Dispositivos de maniobra y control de telecomunicaciones">
+							<DataEntry number="50.70.40.10" title="Tomas de telecomunicaciones"/>
+							<DataEntry number="50.70.40.20" title="Cuadros de mando de telecomunicaciones"/>
+						</DataEntry>
+						<DataEntry number="50.70.50" title="Terminales de telecomunicaciones">
+							<DataEntry number="50.70.50.10" title="Equipos de telecomunicaciones"/>
+							<DataEntry number="50.70.50.20" title="Emisores de telecomunicaciones"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.80" title="Seguridad y anti-intrusión">
+						<DataEntry number="50.80.10" title="Equipos de seguridad y anti-intrusión">
+							<DataEntry number="50.80.10.10" title="Racks para seguridad y anti-intrusión"/>
+							<DataEntry number="50.80.10.20" title="Centralitas de seguridad"/>
+							<DataEntry number="50.80.10.30" title="Telefonía"/>	
+						</DataEntry>
+						<DataEntry number="50.80.20" title="Sistemas anti-intrusión">
+							<DataEntry number="50.80.20.10" title="Detectores anti-intrusión"/>
+							<DataEntry number="50.80.20.20" title="Circuitos de TV"/>
+							<DataEntry number="50.80.20.30" title="Sensores antiintrusión"/>
+						</DataEntry>
+						<DataEntry number="50.80.30" title="Elementos de control de personas">
+							<DataEntry number="50.80.30.10" title="Control de accesos"/>
+						</DataEntry>
+						<DataEntry number="50.80.40" title="Elementos de control de vehículos">
+							<DataEntry number="50.80.40.10" title="Gestión de tráfico"/>
+						</DataEntry>
+						<DataEntry number="50.80.50" title="Elementos de aviso y alarma">
+							<DataEntry number="50.80.50.10" title="Sirenas"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="50.90" title="Instalaciones especiales">
+						<DataEntry number="50.90.10" title="Equipos principales de instalaciones especiales">
+							<DataEntry number="50.90.10.10" title="Equipos de medida, regulación y control especiales"/>
+							<DataEntry number="50.90.10.20" title="Depósitos de instalaciones especiales"/>
+							<DataEntry number="50.90.10.30" title="Grupos de presión de instalaciones especiales"/>	
+						</DataEntry>
+						<DataEntry number="50.90.20" title="Equipos secundarios de instalaciones especiales">
+							<DataEntry number="50.90.20.10" title="Válvulas e instrumentos de medida y control de flujo especiales"/>
+							<DataEntry number="50.90.20.20" title="Dispositivos especiales"/>
+						</DataEntry>
+						<DataEntry number="50.90.30" title="Red de distribución de instalaciones especiales">
+							<DataEntry number="50.90.30.10" title="Canalizaciones especiales"/>
+							<DataEntry number="50.90.30.20" title="Arquetas y pozos de instalaciones especiales"/>
+						</DataEntry>
+						<DataEntry number="50.90.40" title="Terminales de instalaciones especiales">
+							<DataEntry number="50.90.40.10" title="Grifería para instalaciones especiales"/>
+							<DataEntry number="50.90.40.20" title="Otros terminales especiales"/>
+						</DataEntry>
+						<DataEntry number="50.90.50" title="Dispositivos de maniobra y control">
+							<DataEntry number="50.90.50.10" title="Mandos"/>
+							<DataEntry number="50.90.50.20" title="Detectores especiales"/>
+							<DataEntry number="50.90.50.30" title="Sensores especiales"/>
+							<DataEntry number="50.90.50.40" title="Otros dispositivos de maniobra y control especiales"/>
+						</DataEntry>
+					<DataEntry number="50.100" title="Otros elementos de instalaciones">
+						<DataEntry number="50.100.10" title="Elementos comunes de instalaciones">
+							<DataEntry number="50.100.10.10" title="Elementos de apoyo"/>
+							<DataEntry number="50.100.10.20" title="Pasarelas y escaleras de acceso para mantenimiento"/>
+							<DataEntry number="50.100.10.30" title="Canalizaciones y arquetas comunes de instalaciones"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				</DataEntry>
+				<DataEntry number="60" title="Equipamientos y mobiliario">
+					<DataEntry number="60.10" title="Equipamientos">
+						<DataEntry number="60.10.10" title="Cuartos húmedos / sanitarios">
+							<DataEntry number="60.10.10.10" title="Inodoros"/>
+							<DataEntry number="60.10.10.20" title="Urinarios"/>
+							<DataEntry number="60.10.10.30" title="Bidés"/>
+							<DataEntry number="60.10.10.40" title="Platos de ducha"/>
+							<DataEntry number="60.10.10.50" title="Bañeras"/>
+							<DataEntry number="60.10.10.60" title="Lavamanos"/>
+							<DataEntry number="60.10.10.70" title="Fregaderos"/>
+							<DataEntry number="60.10.10.80" title="Accesorios para cuartos húmedos"/>
+							<DataEntry number="60.10.10.90" title="Lavaderos"/>
+							<DataEntry number="60.10.10.100" title="Vertedero"/>
+						</DataEntry>
+						<DataEntry number="60.10.20" title="Otros equipamientos">
+							<DataEntry number="60.10.20.10" title="Equipamientos para circulación de vehículos"/>
+							<DataEntry number="60.10.20.20" title="Equipamientos comerciales"/>
+							<DataEntry number="60.10.20.30" title="Equipamientos institucionales"/>
+							<DataEntry number="60.10.20.40" title="Equipamientos recreativos"/>
+							<DataEntry number="60.10.20.50" title="Equipamientos asistenciales"/>
+							<DataEntry number="60.10.20.60" title="Electrodomésticos"/>
+							<DataEntry number="60.10.20.70" title="Aparatos informáticos"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="60.20" title="Mobiliario">
+						<DataEntry number="60.20.10" title="Mobiliario fijo">
+							<DataEntry number="60.20.10.10" title="Encimeras"/>
+							<DataEntry number="60.20.10.20" title="Estantes"/>
+							<DataEntry number="60.20.10.30" title="Espejos"/>
+							<DataEntry number="60.20.10.40" title="Mostradores"/>
+							<DataEntry number="60.20.10.50" title="Muebles de obra"/>
+							<DataEntry number="60.20.10.60" title="Armarios empotrados"/>
+							<DataEntry number="60.20.10.70" title="Bancadas"/>
+							<DataEntry number="60.20.10.80" title="Otros mobiliarios fijos"/>
+						</DataEntry>
+						<DataEntry number="60.20.30" title="Mobiliario móvil">
+							<DataEntry number="60.20.30.10" title="Mesas"/>
+							<DataEntry number="60.20.30.20" title="Sillas y sofás"/>
+							<DataEntry number="60.20.30.30" title="Taburetes"/>
+							<DataEntry number="60.20.30.40" title="Bancos"/>
+							<DataEntry number="60.20.30.50" title="Camas"/>
+							<DataEntry number="60.20.30.60" title="Armarios, cajoneras y archivadores"/>
+							<DataEntry number="60.20.30.70" title="Otros mobiliarios móviles"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="60.30" title="Sistemas de transporte">
+						<DataEntry number="60.30.10" title="Transporte vertical">
+							<DataEntry number="60.30.10.10" title="Ascensores"/>
+							<DataEntry number="60.30.10.20" title="Montacargas"/>
+							<DataEntry number="60.30.10.30" title="Escaleras mecánicas"/>
+						</DataEntry>
+						<DataEntry number="60.30.20" title="Transporte horizontal">
+							<DataEntry number="60.30.20.10" title="Pasarelas transportadoras"/>
+							<DataEntry number="60.30.20.20" title="Otros sistemas de transporte"/>
+						</DataEntry>
+						<DataEntry number="60.30.30" title="Manipulación de elementos">
+							<DataEntry number="60.30.30.10" title="Grúas"/>
+							<DataEntry number="60.30.30.20" title="Polipasto"/>
+							<DataEntry number="60.30.30.30" title="Cintas transportadoras"/>
+							<DataEntry number="60.30.30.40" title="Sistemas neumáticos"/>
+							<DataEntry number="60.30.30.50" title="Otros sistemas de manipulación"/>
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="70" title="Urbanización de los espacios exteriores">
+					<DataEntry number="70.10" title="Elementos de cimentación, contención de tierras y elementos estructurales">
+						<DataEntry number="70.10.10" title="Cimientos para elementos de urbanización">
+							<DataEntry number="70.10.10.10" title="Zapatas para elementos de urbanización"/>
+							<DataEntry number="70.10.10.20" title="Cimentación especial para elementos de urbanización"/>
+						</DataEntry>
+						<DataEntry number="70.10.20" title="Muros de urbanización">
+							<DataEntry number="70.10.20.10" title="Muros in-situ de urbanización"/>
+							<DataEntry number="70.10.20.20" title="Muros prefabricados de urbanización"/>
+							<DataEntry number="70.10.20.30" title="Muros de gravedad"/>
+							<DataEntry number="70.10.20.40" title="Muro tierra armada"/>
+							<DataEntry number="70.10.20.50" title="Muro de gaviones"/>
+						</DataEntry>
+						<DataEntry number="70.10.30" title="Otros elementos estructurales de urbanización"/>
+					</DataEntry>
+					<DataEntry number="70.20" title="Elementos de cierres y protección de urbanización">
+						<DataEntry number="70.20.10" title="Cierres de parcela"/>
+						<DataEntry number="70.20.20" title="Barreras móviles"/>
+						<DataEntry number="70.20.30" title="Pilonas"/>
+					</DataEntry>
+					<DataEntry number="70.30" title="Firmes y pavimentos">
+						<DataEntry number="70.30.10" title="Bases y subbases"/>
+						<DataEntry number="70.30.20" title="Pavimentos peatonales"/>
+						<DataEntry number="70.30.30" title="Pavimentos para tráfico rodado"/>
+						<DataEntry number="70.30.40" title="Escalonamientos de urbanización"/>
+						<DataEntry number="70.30.50" title="Rampas de urbanización"/>
+					</DataEntry>
+					<DataEntry number="70.40" title="Instalaciones y servicios">
+						<DataEntry number="70.40.10" title="Alumbrado">
+							<DataEntry number="70.40.10.10" title="Luminarias y báculos"/>
+							<DataEntry number="70.40.10.20" title="Elementos de balizamiento"/>
+							<DataEntry number="70.40.10.30" title="Elementos de la red y control"/>	
+						</DataEntry>
+						<DataEntry number="70.40.20" title="Riego y abastecimiento de fuente">
+							<DataEntry number="70.40.20.10" title="Canalizaciones de riego"/>
+							<DataEntry number="70.40.20.20" title="Accesorios de riego"/>
+							<DataEntry number="70.40.20.30" title="Arquetas de riego"/>
+						</DataEntry>
+						<DataEntry number="70.40.30" title="Drenaje">
+							<DataEntry number="70.40.30.10" title="Canalizaciones de drenaje"/>
+							<DataEntry number="70.40.30.20" title="Rejas y buneras"/>
+							<DataEntry number="70.40.30.30" title="Arquetas y pozos de drenaje"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="70.50" title="Jardinería">
+						<DataEntry number="70.50.10" title="Plantaciones">
+							<DataEntry number="70.50.10.10" title="Arbolados"/>
+							<DataEntry number="70.50.10.20" title="Césped"/>
+							<DataEntry number="70.50.10.30" title="Arbustivas"/>
+						</DataEntry>
+						<DataEntry number="70.50.20" title="Parterres">
+							<DataEntry number="70.50.20.10" title="Parterres fijos"/>
+							<DataEntry number="70.50.20.20" title="Parterres móviles"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="70.60" title="Mobiliario urbano y elementos de señalización">
+						<DataEntry number="70.60.10" title="Mobiliario exterior"/>
+						<DataEntry number="70.60.20" title="Juegos infantiles"/>
+						<DataEntry number="70.60.30" title="Mobiliario exterior especial"/>
+						<DataEntry number="70.60.40" title="Señalización horizontal"/>
+						<DataEntry number="70.60.50" title="Señalización vertical"/>
+					</DataEntry>
+				</DataEntry>
+				<DataEntry number="80" title="Construcciones e instalaciones temporales">
+					<DataEntry number="80.10" title="Implantaciones de obra">
+						<DataEntry number="80.10.10" title="Andamios">
+							<DataEntry number="80.10.10.10" title="Puente volante"/>
+							<DataEntry number="80.10.10.20" title="Bastida fija"/>
+							<DataEntry number="80.10.10.30" title="Caballete"/>
+							<DataEntry number="80.10.10.40" title="Andamio móvil"/>
+							<DataEntry number="80.10.10.50" title="Marquesinas"/>
+							<DataEntry number="80.10.10.60" title="Lonas"/>
+						</DataEntry>
+						<DataEntry number="80.10.20" title="Grúas">
+							<DataEntry number="80.10.20.10" title="Grúa torre"/>
+							<DataEntry number="80.10.20.20" title="Grueta"/>
+							<DataEntry number="80.10.20.30" title="Montacargas de obra"/>
+							<DataEntry number="80.10.20.40" title="Poleas y polipastos"/>
+						</DataEntry>
+						<DataEntry number="80.10.30" title="Casetas">
+							<DataEntry number="80.10.30.10" title="Casetas de obra"/>
+							<DataEntry number="80.10.30.20" title="Aseos portátiles"/>
+							<DataEntry number="80.10.30.30" title="Casetas de almacenamiento"/>
+							<DataEntry number="80.10.30.40" title="Otros módulos"/>
+						</DataEntry>
+						<DataEntry number="80.10.40" title="Cierres y señalización">
+							<DataEntry number="80.10.40.10" title="Cierres perimetrales"/>
+							<DataEntry number="80.10.40.20" title="Puertas de acceso"/>
+							<DataEntry number="80.10.40.30" title="Rótulos"/>
+							<DataEntry number="80.10.40.40" title="Balizas de señalización"/>
+						</DataEntry>
+						<DataEntry number="80.10.50" title="Acopio">
+							<DataEntry number="80.10.50.10" title="Acopio de tierras y áridos"/>
+							<DataEntry number="80.10.50.20" title="Acopio de productos"/>
+							<DataEntry number="80.10.50.30" title="Palets"/>
+						</DataEntry>
+						<DataEntry number="80.10.60" title="Otros elementos de implantación de obra">
+							<DataEntry number="80.10.60.10" title="Silo"/>
+							<DataEntry number="80.10.60.20" title="Depósitos de obra"/>	
+						</DataEntry>
+						<DataEntry number="80.10.70" title="Gestión de residuos">
+							<DataEntry number="80.10.70.10" title="Saca de escombros"/>
+							<DataEntry number="80.10.70.20" title="Contenedor de escombros"/>
+							<DataEntry number="80.10.70.30" title="Escombros"/>
+							<DataEntry number="80.10.70.40" title="Residuos especiales"/>
+							<DataEntry number="80.10.70.50" title="Chatarra"/>
+							<DataEntry number="80.10.70.60" title="Tubo de descarga de escombros"/>
+							<DataEntry number="80.10.70.70" title="Tolva"/>	
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.20" title="Construcciones temporales">
+						<DataEntry number="80.20.10" title="Estructuras auxiliares y apeos">
+							<DataEntry number="80.20.10.10" title="Cimentaciones auxiliares"/>
+							<DataEntry number="80.20.10.20" title="Apuntalamiento de fachadas"/>
+							<DataEntry number="80.20.10.30" title="Apeo de servicios"/>
+							<DataEntry number="80.20.10.40" title="Encofrados auxiliares"/>	
+						</DataEntry>
+						<DataEntry number="80.20.20" title="Instalaciones provisionales">
+							<DataEntry number="80.20.20.10" title="Instalación provisional eléctrica"/>
+							<DataEntry number="80.20.20.20" title="Instalación provisional de agua"/>
+							<DataEntry number="80.20.20.30" title="Instalación provisional de saneamiento"/>
+							<DataEntry number="80.20.20.40" title="Otras instalaciones provisionales"/>
+						</DataEntry>
+						<DataEntry number="80.20.30" title="Otras construcciones temporales">
+							<DataEntry number="80.20.30.10" title="Otras construcciones temporales"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.30" title="Equipos y herramientas">
+						<DataEntry number="80.30.10" title="Maquinaria">
+							<DataEntry number="80.30.10.10" title="Maquinaria de excavación y cimentación"/>
+							<DataEntry number="80.30.10.20" title="Maquinaria para escombros"/>
+							<DataEntry number="80.30.10.30" title="Maquinaria de elevación"/>
+							<DataEntry number="80.30.10.40" title="Maquinaria de transporte"/>
+							<DataEntry number="80.30.10.50" title="Máquina de tratamiento de materiales"/>
+							<DataEntry number="80.30.10.60" title="Otros tipos de maquinaria"/>	
+						</DataEntry>
+						<DataEntry number="80.30.20" title="Herramientas">
+							<DataEntry number="80.30.20.10" title="Herramientas manuales"/>
+							<DataEntry number="80.30.20.20" title="Herramientas no manuales"/>
+						</DataEntry>
+					</DataEntry>
+					<DataEntry number="80.40" title="Seguridad y salud">
+						<DataEntry number="80.40.10" title="Protecciones individuales y colectivas">
+							<DataEntry number="80.40.10.10" title="Equipos de protección individual"/>
+							<DataEntry number="80.40.10.20" title="Vallas de protección caídas"/>
+							<DataEntry number="80.40.10.30" title="Redes de protección"/>
+							<DataEntry number="80.40.10.40" title="Líneas de vida"/>
+							<DataEntry number="80.40.10.50" title="Otros medios de protección colectiva"/>
+						</DataEntry>
+						<DataEntry number="80.40.20" title="Equipos de medida preventiva">
+							<DataEntry number="80.40.20.10" title="Equipos de medida y detección de seguridad y salud"/>
+						</DataEntry>
+						<DataEntry number="80.40.30" title="Delimitaciones de zonas de seguridad">
+							<DataEntry number="80.40.30.10" title="Zonas de tráfico rodado y maquinaria"/>
+							<DataEntry number="80.40.30.20" title="Zonas de paso de personas"/>	
+						</DataEntry>
+					</DataEntry>
+				</DataEntry>
+			</DataEntries>
+		</Data>
+		<Script>
+			<CreateClassificationReference>
+				<IfcRelAssociatesClassification Name="GuBIMclass v.1.2 ES">
+					<IfcClassificationReference ItemReference="$number" Location="http://www.gubimclass.org" Name="$title">
+						<IfcClassification Edition="v.1.2" Name="GuBIMclass (ES)" Source="http://www.gubimclass.org">
+							<IfcCalendarDate DayComponent="21" MonthComponent="07" YearComponent="2017"/>
+							<!-- EditionDate -->
+						</IfcClassification>
+					</IfcClassificationReference>
+				</IfcRelAssociatesClassification>
+			</CreateClassificationReference>
+		</Script>
+	</Rule>
+	
+</Rules>
