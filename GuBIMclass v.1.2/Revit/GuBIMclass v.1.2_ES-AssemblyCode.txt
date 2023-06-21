@@ -1,0 +1,533 @@
+00	Trabajos previos y replanteo general	1	-000000
+00.10	Elementos auxiliares de replanteo del modelo	2	-000000
+00.10.10	Origen de coordenadas	3	-000000
+00.10.20	Elementos de alineación de modelo	3	-000000
+00.10.30	Ejes	3	-000000
+00.10.40	Niveles	3	-000000
+00.20	Preexistencias	2	-000000
+00.20.10	Edificaciones colindantes preexistentes	3	-000000
+00.20.20	Elementos de entorno urbano preexistente	3	-000000
+00.20.30	Servicios urbanos preexistentes	3	-000000
+00.30	Ensayos previos	2	-000000
+00.30.10	Ensayo en el terreno	3	-000000
+00.30.10.10	Sondeo	4	-000000
+00.30.10.20	Penetrómetro	4	-000000
+00.30.10.30	Piezómetro	4	-000000
+00.30.20	Ensayo en elementos estructurales	3	-000000
+00.30.20.10	Ensayo sobre elemento de hormigón	4	-000000
+00.30.20.20	Ensayo sobre estructura acero	4	-000000
+00.30.20.30	Ensayo sobre estructura fábrica	4	-000000
+10	Adecuación del terreno y sustentación del edificio	1	-000000
+10.10	Actuaciones para reducir y controlar las afectaciones a edificios vecinos, servicios y otros elementos	2	-000000
+10.10.10	Apuntalamientos y arriostramientos	3	-000000
+10.10.10.10	Puntales metálicos	4	-000000
+10.10.10.20	Anclajes temporales	4	-000000
+10.10.20	Otras actuaciones para controlar afectaciones	3	-000000
+10.20	Movimiento de tierras	2	-000000
+10.20.10	Topografía	3	-000000
+10.20.20	Excavaciones	3	-000000
+10.20.20.10	Excavación general	4	-000000
+10.20.20.20	Excavación de cimentación	4	-000000
+10.20.30	Rellenos	3	-000000
+10.20.30.10	Terraplenado	4	-000000
+10.20.30.20	Mejora del terreno	4	-000000
+10.20.30.30	Relleno trasdós del muro	4	-000000
+10.30	Rebaje del nivel freático	2	-000000
+10.30.10	Elementos generales de agotamiento del nivel freático	3	-000000
+10.30.10.10	Decantador	4	-000000
+10.30.10.20	Tubería para agotamientos	4	-000000
+10.30.10.30	Contador para agotamientos	4	-000000
+10.30.20	Agotamiento con sistema de bombeo	3	-000000
+10.30.20.10	Pozo de bombeo	4	-000000
+10.30.30	Agotamiento con sistema Wellpoint	3	-000000
+10.30.30.10	Lanza de succión	4	-000000
+20	Sistema estructural	1	-000000
+20.10	Cimientos y contención de tierras	2	-000000
+20.10.10	Elementos superficiales	3	-000000
+20.10.10.10	Vigas riostra	4	-000000
+20.10.10.20	Zapatas	4	-000000
+20.10.10.30	Encepados	4	-000000
+20.10.10.40	Losas de cimentación	4	-000000
+20.10.10.50	Hormigón de limpieza	4	-000000
+20.10.10.60	Pozos de cimentación	4	-000000
+20.10.20	Elementos profundos	3	-000000
+20.10.20.20	Pantallas de cimentación	4	-000000
+20.10.20.30	Pilotes de cimentación	4	-000000
+20.10.20.40	Micropilotes	4	-000000
+20.10.20.50	Jet-grouting	4	-000000
+20.10.30	Elementos de contención	3	-000000
+20.10.30.10	Muros de contención	4	-000000
+20.10.30.15	Muro gunitado	4	-000000
+20.10.30.20	Pantallas de contención	4	-000000
+20.10.30.30	Pilones de contención	4	-000000
+20.10.30.40	Muros de micropilotes	4	-000000
+20.10.30.50	Muros de jet-grouting	4	-000000
+20.10.30.60	Muros de tablestacas	4	-000000
+20.10.30.70	Sistemas de anclaje y apuntalamiento de elementos de contención definitivos	4	-000000
+20.10.40	Bases	3	-000000
+20.10.40.10	Soleras	4	-000000
+20.10.40.20	Rampas	4	-000000
+20.10.40.30	Subbases	4	-000000
+20.20	Estructura	2	-000000
+20.20.10	Estructura vertical	3	-000000
+20.20.10.10	Pilares	4	-000000
+20.20.10.20	Ménsulas	4	-000000
+20.20.10.30	Muros estructurales	4	-000000
+20.20.10.40	Escaleras de estructura	4	-000000
+20.20.10.50	Rampas de estructura	4	-000000
+20.20.10.60	Tensores verticales	4	-000000
+20.20.20	Estructura horizontal	3	-000000
+20.20.20.10	Forjados	4	-000000
+20.20.20.20	Jácenas	4	-000000
+20.20.20.30	Cerchas	4	-000000
+20.20.20.40	Viguetas	4	-000000
+20.20.20.50	Tensores horizontales	4	-000000
+20.20.30	Estructura tridimensional	3	-000000
+20.20.30.10	Bóveda	4	-000000
+20.20.30.20	Arco	4	-000000
+20.20.30.30	Cúpula	4	-000000
+20.20.30.40	Malla espacial	4	-000000
+30	Sistemas de envolvente y de acabados exteriores	1	-000000
+30.10	Envolvente vertical	2	-000000
+30.10.10	Fachadas	3	-000000
+30.10.10.10	Fachadas in situ	4	-000000
+30.10.10.20	Fachadas prefabricadas	4	-000000
+30.10.10.30	Sistemas especiales de fachadas	4	-000000
+30.10.10.40	Acabados de fachadas	4	-000000
+30.10.10.50	Remates de fachadas	4	-000000
+30.10.20	Carpintería de fachada	3	-000000
+30.10.20.10	Ventanas de fachadas	4	-000000
+30.10.20.20	Puertas de fachadas	4	-000000
+30.10.20.30	Protecciones solares de fachadas	4	-000000
+30.10.20.40	Protecciones de seguridad de fachadas	4	-000000
+30.20	Envolvente horizontal superior	2	-000000
+30.20.10	Cubiertas	3	-000000
+30.20.10.10	Cubiertas in-situ	4	-000000
+30.20.10.20	Cubiertas prefabricadas	4	-000000
+30.20.10.30	Sistemas especiales de cubiertas	4	-000000
+30.20.10.40	Acabados de cubiertas	4	-000000
+30.20.10.50	Remates de cubiertas	4	-000000
+30.20.20	Carpintería de cubiertas	3	-000000
+30.20.20.10	Ventanas de cubiertas	4	-000000
+30.20.20.20	Puertas de cubiertas	4	-000000
+30.20.20.30	Protecciones solares de cubiertas	4	-000000
+30.20.20.40	Protecciones seguridad de cubiertas	4	-000000
+30.30	Envolvente horizontal inferior	2	-000000
+30.30.10	Compartimentación exterior horizontal	3	-000000
+30.30.10.10	Falsos techos exteriores	4	-000000
+30.30.10.20	Remates compartimentación exterior horizontal	4	-000000
+30.30.20	Acabados envolvente horizontal inferior	3	-000000
+30.30.20.10	Revestimientos continuos de envolvente inferior	4	-000000
+30.30.20.20	Remates envolvente inferior	4	-000000
+30.40	Escaleras y rampas exteriores	2	-000000
+30.40.10	Escalonado exterior	3	-000000
+30.40.10.10	Escalones exteriores	4	-000000
+30.40.10.20	Recrecido de escalones exteriores	4	-000000
+30.40.20	Acabados de escalonado y rampas exteriores	3	-000000
+30.40.20.10	Acabado tramo exterior	4	-000000
+30.40.20.20	Acabado rellano exterior	4	-000000
+40	Sistemas de compartimentación y de acabados interiores	1	-000000
+40.10	Compartimentación y acabados interiores verticales	2	-000000
+40.10.10	Compartimentación interior vertical	3	-000000
+40.10.10.10	Tabiques	4	-000000
+40.10.10.20	Mamparas	4	-000000
+40.10.10.30	Trasdosados	4	-000000
+40.10.10.40	Carpintería interior	4	-000000
+40.10.10.50	Protecciones interiores	4	-000000
+40.10.20	Acabados interiores verticales	3	-000000
+40.10.20.10	Revestimientos discontinuos	4	-000000
+40.10.20.20	Revestimientos continuos	4	-000000
+40.10.20.30	Remates interiores	4	-000000
+40.10.20.40	Pinturas y vinilos	4	-000000
+40.20	Sistemas de compartimentación y de acabados interiores	2	-000000
+40.20.10	Compartimentación interior horizontal	3	-000000
+40.20.10.10	Falsos techos interiores	4	-000000
+40.20.10.20	Suelos técnicos	4	-000000
+40.20.10.30	Recrecidos	4	-000000
+40.20.20	Acabados interiores horizontales	3	-000000
+40.20.20.10	Revestimientos techos	4	-000000
+40.20.20.20	Pavimentos	4	-000000
+40.30	Escaleras y rampas interiores	2	-000000
+40.30.10	Escalonado interior	3	-000000
+40.30.10.10	Escalones interiores	4	-000000
+40.30.10.20	Recrecido de escalones interiores	4	-000000
+40.30.20	Acabados de escalonado y rampas interiores	3	-000000
+40.30.20.10	Acabado tramo interior	4	-000000
+40.30.20.20	Acabado rellano interior	4	-000000
+40.40	Elementos especiales de acabados interiores	2	-000000
+40.40.10	Elementos de señalización	3	-000000
+40.40.10.10	Señalización de techo	4	-000000
+40.40.10.20	Señalización mural	4	-000000
+40.40.10.30	Señalización de suelos	4	-000000
+40.40.20	Otros elementos especiales de acabados interiores	3	-000000
+50	Sistemas de acondicionamiento, instalaciones y servicios	1	-000000
+50.10	Fontanería	2	-000000
+50.10.10	Equipos principales de fontanería	3	-000000
+50.10.10.10	Equipos de medida y control de fontanería	4	-000000
+50.10.10.20	Grupos de presión de fontanería	4	-000000
+50.10.10.30	Depósitos, acumuladores y calentadores	4	-000000
+50.10.20	Red de distribución de fontanería	3	-000000
+50.10.20.10	Válvulas e instrumentos de medida y control de flujo de fontanería	4	-000000
+50.10.20.20	Dispositivos de fontanería	4	-000000
+50.10.20.30	Canalizaciones de agua sanitaria	4	-000000
+50.10.20.40	Canalizaciones de agua tratada	4	-000000
+50.10.20.50	Arquetas y pozos de fontanería	4	-000000
+50.10.20.60	Terminales de fontanería	4	-000000
+50.20	Evacuación de aguas	2	-000000
+50.20.10	Equipos principales de evacuación de aguas	3	-000000
+50.20.10.10	Equipos de medida y control de evacuación de aguas	4	-000000
+50.20.10.20	Grupos de presión de evacuación de aguas	4	-000000
+50.20.10.30	Depósitos de evacuación de aguas	4	-000000
+50.20.10.40	Dispositivos de evacuación de aguas	4	-000000
+50.20.20	Red de recogida	3	-000000
+50.20.20.10	Canalizaciones de aguas pluviales	4	-000000
+50.20.20.20	Canalizaciones de aguas residuales	4	-000000
+50.20.20.30	Canalizaciones de aguas grises	4	-000000
+50.20.20.40	Canalizaciones para ventilación saneamiento	4	-000000
+50.20.20.50	Arquetas y pozos de evacuación de aguas	4	-000000
+50.20.20.60	Terminales de drenaje	4	-000000
+50.30	Instalaciones térmicas y de ventilación	2	-000000
+50.30.10	Equipos de producción de instalaciones térmicas	3	-000000
+50.30.10.10	Torres de refrigeración	4	-000000
+50.30.10.20	Unidades exteriores de instalaciones térmicas	4	-000000
+50.30.10.30	Unidades interiores de instalaciones térmicas	4	-000000
+50.30.10.40	Calderas	4	-000000
+50.30.10.50	Termoacumuladores	4	-000000
+50.30.10.60	Geotermia	4	-000000
+50.30.10.70	Captadores solares térmicos	4	-000000
+50.30.10.80	Ventiladores	4	-000000
+50.30.10.90	Recuperadores	4	-000000
+50.30.20	Equipos secundarios de instalaciones térmicas	3	-000000
+50.30.20.10	Equipos de bombeo de instalaciones térmicas	4	-000000
+50.30.20.20	Silenciadores	4	-000000
+50.30.20.30	Compuertas	4	-000000
+50.30.20.40	Reguladores	4	-000000
+50.30.20.50	Condensadores	4	-000000
+50.30.20.60	Válvulas e instrumentos de medida y control de flujo de climatización	4	-000000
+50.30.30	Circuitos de distribución de fluidos frío / calor	3	-000000
+50.30.30.10	Líneas frigoríficas	4	-000000
+50.30.30.20	Líneas hidráulicas	4	-000000
+50.30.40	Conductos de distribución de aire	3	-000000
+50.30.40.10	Aportación de aire primario	4	-000000
+50.30.40.20	Extracción de aire primario	4	-000000
+50.30.40.30	Impulsión de aire tratado	4	-000000
+50.30.40.40	Retorno de aire tratado	4	-000000
+50.30.40.50	Extracción de humos	4	-000000
+50.30.50	Terminales y difusores	3	-000000
+50.30.50.10	Radiadores	4	-000000
+50.30.50.20	Difusores	4	-000000
+50.30.50.30	Suelo radiante	4	-000000
+50.30.50.40	Forjados radiantes	4	-000000
+50.30.50.50	Rejillas	4	-000000
+50.30.60	Dispositivos de maniobra y control	3	-000000
+50.30.60.10	Cableado / BUS de climatización	4	-000000
+50.30.60.20	Detectores de CO2	4	-000000
+50.40	Suministro de combustibles	2	-000000
+50.40.10	Equipos principales de suministro de combustibles	3	-000000
+50.40.10.10	Equipos de medida, regulación y control de combustibles	4	-000000
+50.40.10.20	Depósitos de combustible	4	-000000
+50.40.10.30	Grupos de presión de combustible	4	-000000
+50.40.20	Equipos secundarios de suministro de combustibles	3	-000000
+50.40.20.10	Válvulas e instrumentos de medida y control de flujo de combustibles	4	-000000
+50.40.20.20	Dispositivos de suministro de combustibles	4	-000000
+50.40.30	Red de distribución de suministro de combustibles	3	-000000
+50.40.30.10	Canalizaciones de suministro de combustibles	4	-000000
+50.40.30.20	Arquetas y pozos de suministro de combustibles	4	-000000
+50.40.40	Terminales de suministro de combustibles	3	-000000
+50.40.40.10	Grifos de suministro de combustibles	4	-000000
+50.40.40.20	Quemadores	4	-000000
+50.40.50	Dispositivos de maniobra y control	3	-000000
+50.40.50.10	Cableado / BUS para suministro de combustibles	4	-000000
+50.40.50.20	Detector de gases	4	-000000
+50.50	Protección contra incendios	2	-000000
+50.50.10	Extinción de incendios	3	-000000
+50.50.10.10	Depósitos de extinción de incendios	4	-000000
+50.50.10.20	Grupos de presión de extinción de incendios	4	-000000
+50.50.10.30	Válvulas e instrumentos de medida y control de flujo de extinción de incendios	4	-000000
+50.50.10.40	Dispositivos de extinción de incendios	4	-000000
+50.50.10.50	Canalizaciones de extinción de incendios	4	-000000
+50.50.10.60	Rociadores	4	-000000
+50.50.10.70	BIES	4	-000000
+50.50.10.80	Extintores	4	-000000
+50.50.20	Detección de incendios	3	-000000
+50.50.20.10	Centralitas y racks de detección de incendios	4	-000000
+50.50.20.20	Equipos especiales de detección de incendios	4	-000000
+50.50.20.30	Canalizaciones de detección de incendios	4	-000000
+50.50.20.40	Cajas de distribución de detección de incendios	4	-000000
+50.50.30	Dispositivos de maniobra y control	3	-000000
+50.50.30.10	Pulsadores	4	-000000
+50.50.30.20	Cuadros de mando para contra incendios	4	-000000
+50.50.30.30	Detectores de incendios	4	-000000
+50.50.30.40	Mecanismos de extinción y detección de incendios	4	-000000
+50.50.30.50	Cableado / BUS de contra incendios	4	-000000
+50.60	Instalaciones eléctricas	2	-000000
+50.60.10	Equipos eléctricos principales	3	-000000
+50.60.10.10	Cuadros eléctricos	4	-000000
+50.60.10.20	Grupos electrógenos	4	-000000
+50.60.10.30	Acometidas eléctricas	4	-000000
+50.60.10.40	Transformadores	4	-000000
+50.60.20	Equipos eléctricos secundarios	3	-000000
+50.60.20.10	Baterías y SAI	4	-000000
+50.60.20.20	Cuadros de mando eléctrico	4	-000000
+50.60.20.30	Baterías de condensadores	4	-000000
+50.60.20.40	Embarrados y transformadores	4	-000000
+50.60.30	Canalizaciones de distribución eléctricas	3	-000000
+50.60.30.10	Bandejas de distribución eléctrica	4	-000000
+50.60.30.20	Canales de superficie de distribución eléctrica	4	-000000
+50.60.30.30	Cajas de distribución eléctrica	4	-000000
+50.60.30.40	Mangueras y tubos de distribución eléctrica	4	-000000
+50.60.30.50	Arquetas y pozos de distribución eléctrica	4	-000000
+50.60.30.60	Cableado eléctrico	4	-000000
+50.60.40	Dispositivos de maniobra y control	3	-000000
+50.60.40.10	Mecanismos	4	-000000
+50.60.40.20	Tomas	4	-000000
+50.60.50	Iluminación	3	-000000
+50.60.50.10	Iluminación exterior	4	-000000
+50.60.50.20	Iluminación interior	4	-000000
+50.60.50.30	Iluminación de emergencia	4	-000000
+50.60.60	Red de tierras	3	-000000
+50.60.60.10	Pararrayos	4	-000000
+50.60.60.20	Piquetes y arquetas	4	-000000
+50.60.60.30	Mecanismos de la red de tierras	4	-000000
+50.70	Telecomunicaciones y audiovisuales	2	-000000
+50.70.10	Equipos principales de telecomunicaciones	3	-000000
+50.70.10.10	Antenas	4	-000000
+50.70.10.20	Acometidas de telecomunicaciones	4	-000000
+50.70.10.30	Armarios RACK	4	-000000
+50.70.10.40	Servidores	4	-000000
+50.70.20	Equipos secundarios de telecomunicaciones	3	-000000
+50.70.20.10	Conversores	4	-000000
+50.70.20.20	Amplificadores	4	-000000
+50.70.20.30	Altavoces	4	-000000
+50.70.20.40	Centralitas	4	-000000
+50.70.20.50	Routers	4	-000000
+50.70.20.60	Monitores	4	-000000
+50.70.30	Canalizaciones de distribución para señales débiles	3	-000000
+50.70.30.10	Bandejas de distribución para señales débiles	4	-000000
+50.70.30.20	Canales de superficie para señales débiles	4	-000000
+50.70.30.30	Cajas de distribución para señales débiles	4	-000000
+50.70.30.40	Cableado de señales débiles	4	-000000
+50.70.30.50	Mangueras y tubos de distribución para señales débiles	4	-000000
+50.70.30.60	Arquetas y pozos para señales débiles	4	-000000
+50.70.40	Dispositivos de maniobra y control de telecomunicaciones	3	-000000
+50.70.40.10	Tomas de telecomunicaciones	4	-000000
+50.70.40.20	Cuadros de mando de telecomunicaciones	4	-000000
+50.70.50	Terminales de telecomunicaciones	3	-000000
+50.70.50.10	Equipos de telecomunicaciones	4	-000000
+50.70.50.20	Emisores de telecomunicaciones	4	-000000
+50.80	Seguridad y anti-intrusión	2	-000000
+50.80.10	Equipos de seguridad y anti-intrusión	3	-000000
+50.80.10.10	Racks para seguridad y anti-intrusión	4	-000000
+50.80.10.20	Centralitas de seguridad	4	-000000
+50.80.10.30	Telefonía	4	-000000
+50.80.20	Sistemas anti-intrusión	3	-000000
+50.80.20.10	Detectores anti-intrusión	4	-000000
+50.80.20.20	Circuitos de TV	4	-000000
+50.80.20.30	Sensores antiintrusión	4	-000000
+50.80.30	Elementos de control de personas	3	-000000
+50.80.30.10	Control de accesos	4	-000000
+50.80.40	Elementos de control de vehículos	3	-000000
+50.80.40.10	Gestión de tráfico	4	-000000
+50.80.50	Elementos de aviso y alarma	3	-000000
+50.80.50.10	Sirenas	4	-000000
+50.90	Instalaciones especiales	2	-000000
+50.90.10	Equipos principales de instalaciones especiales	3	-000000
+50.90.10.10	Equipos de medida, regulación y control especiales	4	-000000
+50.90.10.20	Depósitos de instalaciones especiales	4	-000000
+50.90.10.30	Grupos de presión de instalaciones especiales	4	-000000
+50.90.20	Equipos secundarios de instalaciones especiales	3	-000000
+50.90.20.10	Válvulas e instrumentos de medida y control de flujo especiales	4	-000000
+50.90.20.20	Dispositivos especiales	4	-000000
+50.90.30	Red de distribución de instalaciones especiales	3	-000000
+50.90.30.10	Canalizaciones especiales	4	-000000
+50.90.30.20	Arquetas y pozos de instalaciones especiales	4	-000000
+50.90.40	Terminales de instalaciones especiales	3	-000000
+50.90.40.10	Grifería para instalaciones especiales	4	-000000
+50.90.40.20	Otros terminales especiales	4	-000000
+50.90.50	Dispositivos de maniobra y control	3	-000000
+50.90.50.10	Mandos	4	-000000
+50.90.50.20	Detectores especiales	4	-000000
+50.90.50.30	Sensores especiales	4	-000000
+50.90.50.40	Otros dispositivos de maniobra y control especiales	4	-000000
+50.100	Otros elementos de instalaciones	2	-000000
+50.100.10	Elementos comunes de instalaciones	3	-000000
+50.100.10.10	Elementos de apoyo	4	-000000
+50.100.10.20	Pasarelas y escaleras de acceso para mantenimiento	4	-000000
+50.100.10.30	Canalizaciones y arquetas comunes de instalaciones	4	-000000
+60	Equipamientos y mobiliario	1	-000000
+60.10	Equipamientos	2	-000000
+60.10.10	Cuartos húmedos / sanitarios	3	-000000
+60.10.10.10	Inodoros	4	-000000
+60.10.10.20	Urinarios	4	-000000
+60.10.10.30	Bidés	4	-000000
+60.10.10.40	Platos de ducha	4	-000000
+60.10.10.50	Bañeras	4	-000000
+60.10.10.60	Lavamanos	4	-000000
+60.10.10.70	Fregaderos	4	-000000
+60.10.10.80	Accesorios para cuartos húmedos	4	-000000
+60.10.10.90	Lavaderos	4	-000000
+60.10.10.100	Vertedero	4	-000000
+60.10.20	Otros equipamientos	3	-000000
+60.10.20.10	Equipamientos para circulación de vehículos	4	-000000
+60.10.20.20	Equipamientos comerciales	4	-000000
+60.10.20.30	Equipamientos institucionales	4	-000000
+60.10.20.40	Equipamientos recreativos	4	-000000
+60.10.20.50	Equipamientos asistenciales	4	-000000
+60.10.20.60	Electrodomésticos	4	-000000
+60.10.20.70	Aparatos informáticos	4	-000000
+60.20	Mobiliario	2	-000000
+60.20.10	Mobiliario fijo	3	-000000
+60.20.10.10	Encimeras	4	-000000
+60.20.10.20	Estantes	4	-000000
+60.20.10.30	Espejos	4	-000000
+60.20.10.40	Mostradores	4	-000000
+60.20.10.50	Muebles de obra	4	-000000
+60.20.10.60	Armarios empotrados	4	-000000
+60.20.10.70	Bancadas	4	-000000
+60.20.10.80	Otros mobiliarios fijos	4	-000000
+60.20.30	Mobiliario móvil	3	-000000
+60.20.30.10	Mesas	4	-000000
+60.20.30.20	Sillas y sofás	4	-000000
+60.20.30.30	Taburetes	4	-000000
+60.20.30.40	Bancos	4	-000000
+60.20.30.50	Camas	4	-000000
+60.20.30.60	Armarios, cajoneras y archivadores	4	-000000
+60.20.30.70	Otros mobiliarios móviles	4	-000000
+60.30	Sistemas de transporte	2	-000000
+60.30.10	Transporte vertical	3	-000000
+60.30.10.10	Ascensores	4	-000000
+60.30.10.20	Montacargas	4	-000000
+60.30.10.30	Escaleras mecánicas	4	-000000
+60.30.20	Transporte horizontal	3	-000000
+60.30.20.10	Pasarelas transportadoras	4	-000000
+60.30.20.20	Otros sistemas de transporte	4	-000000
+60.30.30	Manipulación de elementos	3	-000000
+60.30.30.10	Grúas	4	-000000
+60.30.30.20	Polipasto	4	-000000
+60.30.30.30	Cintas transportadoras	4	-000000
+60.30.30.40	Sistemas neumáticos	4	-000000
+60.30.30.50	Otros sistemas de manipulación	4	-000000
+70	Urbanización de los espacios exteriores	1	-000000
+70.10	Elementos de cimentación, contención de tierras y elementos estructurales	2	-000000
+70.10.10	Cimientos para elementos de urbanización	3	-000000
+70.10.10.10	Zapatas para elementos de urbanización	4	-000000
+70.10.10.20	Cimentación especial para elementos de urbanización	4	-000000
+70.10.20	Muros de urbanización	3	-000000
+70.10.20.10	Muros in-situ de urbanización	4	-000000
+70.10.20.20	Muros prefabricados de urbanización	4	-000000
+70.10.20.30	Muros de gravedad	4	-000000
+70.10.20.40	Muro tierra armada	4	-000000
+70.10.20.50	Muro de gaviones	4	-000000
+70.10.30	Otros elementos estructurales de urbanización	3	-000000
+70.20	Elementos de cierres y protección de urbanización	2	-000000
+70.20.10	Cierres de parcela	3	-000000
+70.20.20	Barreras móviles	3	-000000
+70.20.30	Pilonas	3	-000000
+70.30	Firmes y pavimentos	2	-000000
+70.30.10	Bases y subbases	3	-000000
+70.30.20	Pavimentos peatonales	3	-000000
+70.30.30	Pavimentos para tráfico rodado	3	-000000
+70.30.40	Escalonamientos de urbanización	3	-000000
+70.30.50	Rampas de urbanización	3	-000000
+70.40	Instalaciones y servicios	2	-000000
+70.40.10	Alumbrado	3	-000000
+70.40.10.10	Luminarias y báculos	4	-000000
+70.40.10.20	Elementos de balizamiento	4	-000000
+70.40.10.30	Elementos de la red y control	4	-000000
+70.40.20	Riego y abastecimiento de fuente	3	-000000
+70.40.20.10	Canalizaciones de riego	4	-000000
+70.40.20.20	Accesorios de riego	4	-000000
+70.40.20.30	Arquetas de riego	4	-000000
+70.40.30	Drenaje	3	-000000
+70.40.30.10	Canalizaciones de drenaje	4	-000000
+70.40.30.20	Rejas y buneras	4	-000000
+70.40.30.30	Arquetas y pozos de drenaje	4	-000000
+70.50	Jardinería	2	-000000
+70.50.10	Plantaciones	3	-000000
+70.50.10.10	Arbolados	4	-000000
+70.50.10.20	Césped	4	-000000
+70.50.10.30	Arbustivas	4	-000000
+70.50.20	Parterres	3	-000000
+70.50.20.10	Parterres fijos	4	-000000
+70.50.20.20	Parterres móviles	4	-000000
+70.60	Mobiliario urbano y elementos de señalización	2	-000000
+70.60.10	Mobiliario exterior	3	-000000
+70.60.20	Juegos infantiles	3	-000000
+70.60.30	Mobiliario exterior especial	3	-000000
+70.60.40	Señalización horizontal	3	-000000
+70.60.50	Señalización vertical	3	-000000
+80	Construcciones e instalaciones temporales	1	-000000
+80.10	Implantaciones de obra	2	-000000
+80.10.10	Andamios	3	-000000
+80.10.10.10	Puente volante	4	-000000
+80.10.10.20	Bastida fija	4	-000000
+80.10.10.30	Caballete	4	-000000
+80.10.10.40	Andamio móvil	4	-000000
+80.10.10.50	Marquesinas	4	-000000
+80.10.10.60	Lonas	4	-000000
+80.10.20	Grúas	3	-000000
+80.10.20.10	Grúa torre	4	-000000
+80.10.20.20	Grueta	4	-000000
+80.10.20.30	Montacargas de obra	4	-000000
+80.10.20.40	Poleas y polipastos	4	-000000
+80.10.30	Casetas	3	-000000
+80.10.30.10	Casetas de obra	4	-000000
+80.10.30.20	Aseos portátiles	4	-000000
+80.10.30.30	Casetas de almacenamiento	4	-000000
+80.10.30.40	Otros módulos	4	-000000
+80.10.40	Cierres y señalización	3	-000000
+80.10.40.10	Cierres perimetrales	4	-000000
+80.10.40.20	Puertas de acceso	4	-000000
+80.10.40.30	Rótulos	4	-000000
+80.10.40.40	Balizas de señalización	4	-000000
+80.10.50	Acopio	3	-000000
+80.10.50.10	Acopio de tierras y áridos	4	-000000
+80.10.50.20	Acopio de productos	4	-000000
+80.10.50.30	Palets	4	-000000
+80.10.60	Otros elementos de implantación de obra	3	-000000
+80.10.60.10	Silo	4	-000000
+80.10.60.20	Depósitos de obra	4	-000000
+80.10.70	Gestión de residuos	3	-000000
+80.10.70.10	Saca de escombros	4	-000000
+80.10.70.20	Contenedor de escombros	4	-000000
+80.10.70.30	Escombros	4	-000000
+80.10.70.40	Residuos especiales	4	-000000
+80.10.70.50	Chatarra	4	-000000
+80.10.70.60	Tubo de descarga de escombros	4	-000000
+80.10.70.70	Tolva	4	-000000
+80.20	Construcciones temporales	2	-000000
+80.20.10	Estructuras auxiliares y apeos	3	-000000
+80.20.10.10	Cimentaciones auxiliares	4	-000000
+80.20.10.20	Apuntalamiento de fachadas	4	-000000
+80.20.10.30	Apeo de servicios	4	-000000
+80.20.10.40	Encofrados auxiliares	4	-000000
+80.20.20	Instalaciones provisionales	3	-000000
+80.20.20.10	Instalación provisional eléctrica	4	-000000
+80.20.20.20	Instalación provisional de agua	4	-000000
+80.20.20.30	Instalación provisional de saneamiento	4	-000000
+80.20.20.40	Otras instalaciones provisionales	4	-000000
+80.20.30	Otras construcciones temporales	3	-000000
+80.20.30.10	Otras construcciones temporales	4	-000000
+80.30	Equipos y herramientas	2	-000000
+80.30.10	Maquinaria	3	-000000
+80.30.10.10	Maquinaria de excavación y cimentación	4	-000000
+80.30.10.20	Maquinaria para escombros	4	-000000
+80.30.10.30	Maquinaria de elevación	4	-000000
+80.30.10.40	Maquinaria de transporte	4	-000000
+80.30.10.50	Máquina de tratamiento de materiales	4	-000000
+80.30.10.60	Otros tipos de maquinaria	4	-000000
+80.30.20	Herramientas	3	-000000
+80.30.20.10	Herramientas manuales	4	-000000
+80.30.20.20	Herramientas no manuales	4	-000000
+80.40	Seguridad y salud	2	-000000
+80.40.10	Protecciones individuales y colectivas	3	-000000
+80.40.10.10	Equipos de protección individual	4	-000000
+80.40.10.20	Vallas de protección caídas	4	-000000
+80.40.10.30	Redes de protección	4	-000000
+80.40.10.40	Líneas de vida	4	-000000
+80.40.10.50	Otros medios de protección colectiva	4	-000000
+80.40.20	Equipos de medida preventiva	3	-000000
+80.40.20.10	Equipos de medida y detección de seguridad y salud	4	-000000
+80.40.30	Delimitaciones de zonas de seguridad	3	-000000
+80.40.30.10	Zonas de tráfico rodado y maquinaria	4	-000000
+80.40.30.20	Zonas de paso de personas	4	-000000
